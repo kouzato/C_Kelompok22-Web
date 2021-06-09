@@ -162,7 +162,7 @@
                         <li><a href="view-mail.html">View Mail</a></li>
                       </ul>
                     </li>
-                    <li class="ripple"><a class="tree-toggle nav-header"><span class="fa fa-file-code-o"></span> Pages  <span class="fa-angle-right fa right-arrow text-right"></span> </a>
+                    <li class="ripple"><a class="tree-toggle nav-header"><span class="fa fa-file-code-o"></span> Account  <span class="fa-angle-right fa right-arrow text-right"></span> </a>
                       <ul class="nav nav-list tree">
                         <li><a href="forgotpass.html">Forgot Password</a></li>
                         <li><a href="login.html">SignIn</a></li>
