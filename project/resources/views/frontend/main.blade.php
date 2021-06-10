@@ -227,11 +227,11 @@
                             <div class="col-md-12 padding-0">
                               <div class="panel bg-light-blue">
                                 <div class="panel-body text-white">
-                                   <p class="animated fadeInUp quote">Lorem ipsum dolor sit amet, consectetuer adipiscing elit Ut wisi..."</p>
+                                   <p class="animated fadeInUp quote">Wahhh, Website ini sangat Membantu Sekali........."</p>
                                     <div class="col-md-12 padding-0">
                                       <div class="text-left col-md-7 col-xs-12 col-sm-7 padding-0">
                                         <span class="fa fa-twitter fa-2x"></span>
-                                        <span>22 May, 2020 via mobile</span>
+                                        <span>22 May, 2021 via Iphone</span>
                                       </div>
                                       <div style="padding-top:8px;" class="text-right col-md-5 col-xs-12 col-sm-5 padding-0">
                                         <span class="fa fa-retweet"></span> 2000
