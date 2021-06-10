@@ -8,7 +8,7 @@
                   <div class="panel-body">
                       <div class="col-md-6 col-sm-12">
                         <h3 class="animated fadeInLeft">Customer Service</h3>
-                        <p class="animated fadeInDown"><span class="fa  fa-map-marker"></span> Batavia,Indonesia</p>
+                        <p class="animated fadeInDown"><span class="fa  fa-map-marker"></span> Jember,Indonesia</p>
 
                         <ul class="nav navbar-nav">
                             <li><a href="" >Impedit</a></li>
@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="col-md-6 col-sm-6 text-right" style="padding-left:10px;">
-                          <h3 style="color:#DDDDDE;"><span class="fa  fa-map-marker"></span> Banyumas</h3>
+                          <h3 style="color:#DDDDDE;"><span class="fa  fa-map-marker"></span> Jember</h3>
                           <h1 style="margin-top: -10px;color: #ddd;">30<sup>o</sup></h1>
                         </div>
                         <div class="col-md-6 col-sm-6">
@@ -66,7 +66,7 @@
                                         </div>
                                       </div>
                                       <div class="panel-body text-center">
-                                        <h1>51181,320</h1>
+                                        <h1>20</h1>
                                         <p>User active</p>
                                         <hr/>
                                       </div>
@@ -85,7 +85,7 @@
                                         </div>
                                       </div>
                                       <div class="panel-body text-center">
-                                        <h1>51181,320</h1>
+                                        <h1>8</h1>
                                         <p>New Orders</p>
                                         <hr/>
                                       </div>
@@ -117,21 +117,21 @@
                                     <img src="asset/img/bg2.jpg" class="box-v2-cover img-responsive"/>
                                     <div class="box-v2-detail">
                                       <img src="asset/img/avatar.jpg" class="img-responsive"/>
-                                      <h4>Akihiko Avaron</h4>
+                                      <h4>NaufalM</h4>
                                     </div>
                                   </div>
                                   <div class="panel-body">
                                     <div class="col-md-12 padding-0 text-center">
                                       <div class="col-md-4 col-sm-4 col-xs-6 padding-0">
-                                          <h3>2.000</h3>
+                                          <h3>5</h3>
                                           <p>Post</p>
                                       </div>
                                       <div class="col-md-4 col-sm-4 col-xs-6 padding-0">
-                                          <h3>2.232</h3>
+                                          <h3>20</h3>
                                           <p>share</p>
                                       </div>
                                       <div class="col-md-4 col-sm-4 col-xs-12 padding-0">
-                                          <h3>4.320</h3>
+                                          <h3>5</h3>
                                           <p>photos</p>
                                       </div>
                                     </div>
@@ -231,7 +231,7 @@
                                     <div class="col-md-12 padding-0">
                                       <div class="text-left col-md-7 col-xs-12 col-sm-7 padding-0">
                                         <span class="fa fa-twitter fa-2x"></span>
-                                        <span>22 May, 2015 via mobile</span>
+                                        <span>22 May, 2020 via mobile</span>
                                       </div>
                                       <div style="padding-top:8px;" class="text-right col-md-5 col-xs-12 col-sm-5 padding-0">
                                         <span class="fa fa-retweet"></span> 2000
