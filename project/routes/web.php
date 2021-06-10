@@ -33,3 +33,7 @@ Route::get('/dashboard', [DashboardController::class, 'index'] );
 Route::get('/login', function () {
     return view('cobalogin');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
