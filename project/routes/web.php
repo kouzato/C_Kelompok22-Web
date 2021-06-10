@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\controllers\Backend\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,10 +17,10 @@ Route::group(['namespace' => 'Frontend'], function() {
 	Route::resource('home', 'HomeController');
 });
 
-Route::group(['namespace' => 'Backend'], function()
-{
-    Route::resource('dashboard', 'DashboardControler');
-});
+// Route::group(['namespace' => 'Backend'], function()
+// {
+//     Route::resource('dashboard', 'DashboardControler');
+// });
 
 
 Route::get('/', function () {
@@ -27,9 +28,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/dashboard', function () {
-    return view('home');
-});
+Route::get('/dashboard', [DashboardController::class, 'index'] );
 
 Route::get('/login', function () {
     return view('cobalogin');
