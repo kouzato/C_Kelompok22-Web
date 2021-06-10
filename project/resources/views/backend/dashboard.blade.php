@@ -27,12 +27,12 @@
                            <div class="wheather">
                             <div class="stormy rainy animated pulse infinite">
                               <div class="shadow">
-                                
+
                               </div>
                             </div>
                             <div class="sub-wheather">
                               <div class="thunder">
-                                
+
                               </div>
                               <div class="rain">
                                   <div class="droplet droplet1"></div>
@@ -44,9 +44,9 @@
                                 </div>
                             </div>
                           </div>
-                        </div>                   
+                        </div>
                     </div>
-                  </div>                    
+                  </div>
                 </div>
 
                 <div class="col-md-12" style="padding:20px;">
@@ -104,10 +104,10 @@
                                             <b><span class="icon-clock icons"></span> Today at 15:00</b>
                                         </div>
                                         <div class="calendar">
-                                          
+
                                         </div>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -117,7 +117,7 @@
                                     <img src="asset/img/bg2.jpg" class="box-v2-cover img-responsive"/>
                                     <div class="box-v2-detail">
                                       <img src="asset/img/avatar.jpg" class="img-responsive"/>
-                                      <h4>NaufalM</h4>
+                                      <span class="username"><h4>{{ Auth::user()->name }}</h4></span>
                                     </div>
                                   </div>
                                   <div class="panel-body">
@@ -145,7 +145,7 @@
                                   <h4>Report</h4>
                                 </div>
                                 <div class="panel-body">
-                                    
+
                                   <div class="media">
                                     <div class="media-left">
                                         <span class="icon-folder icons" style="font-size:2em;"></span>

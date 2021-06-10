@@ -8,7 +8,7 @@
                 <span class="middle"></span>
                 <span class="bottom"></span>
               </div>
-                <a href="index.html" class="navbar-brand"> 
+                <a href="index.html" class="navbar-brand">
                  <b>Veterinary care</b>
                 </a>
 
@@ -37,7 +37,10 @@
                       <ul>
                         <li><a href=""><span class="fa fa-cogs"></span></a></li>
                         <li><a href=""><span class="fa fa-lock"></span></a></li>
-                        <li><a href=""><span class="fa fa-power-off "></span></a></li>
+                        <li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><span class="fa fa-power-off "></span></a>
+                            <form id="logout-form" action="{{ route('logout') }}" method="post" style="display: none;">
+                                @csrf
+                              </form></li>
                       </ul>
                     </li>
                   </ul>

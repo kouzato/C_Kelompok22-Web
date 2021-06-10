@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
+
 	<meta charset="utf-8">
 	<meta name="description" content="Miminium Admin Template v.1">
 	<meta name="author" content="Isna Nur Azis">
 	<meta name="keyword" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Animal Vatcare</title>
- 
+
     <!-- start: Css -->
     <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css">
 
@@ -38,7 +38,7 @@
                 <span class="middle"></span>
                 <span class="bottom"></span>
               </div>
-                <a href="index.html" class="navbar-brand"> 
+                <a href="index.html" class="navbar-brand">
                  <b>Veterinary Care</b>
                 </a>
 
@@ -67,7 +67,10 @@
                       <ul>
                         <li><a href=""><span class="fa fa-cogs"></span></a></li>
                         <li><a href=""><span class="fa fa-lock"></span></a></li>
-                        <li><a href=""><span class="fa fa-power-off "></span></a></li>
+                        <li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><span class="fa fa-power-off "></span>{{__('Logout')}}</a>
+                            <form id="logout-form" action="{{ route('logout') }}" method="post" style="display: none;">
+                                @csrf
+                              </form></li>
                       </ul>
                     </li>
                   </ul>
@@ -80,7 +83,7 @@
       <!-- end: Header -->
 
       <div class="container-fluid mimin-wrapper">
-  
+
           <!-- start:Left Menu -->
             <div id="left-menu">
               <div class="sub-left-menu scroll">
@@ -91,7 +94,7 @@
                       <p class="animated fadeInRight">Sat,October 1st 2029</p>
                     </li>
                     <li class="active ripple">
-                      <a class="tree-toggle nav-header"><span class="fa-home fa"></span> Dashboard 
+                      <a class="tree-toggle nav-header"><span class="fa-home fa"></span> Dashboard
                         <span class="fa-angle-right fa right-arrow text-right"></span>
                       </a>
                       <ul class="nav nav-list tree">
@@ -197,7 +200,7 @@
             </div>
           <!-- end: Left Menu -->
 
-  		
+
           <!-- start: content -->
             <div id="content">
                 <div class="panel">
@@ -223,12 +226,12 @@
                            <div class="wheather">
                             <div class="stormy rainy animated pulse infinite">
                               <div class="shadow">
-                                
+
                               </div>
                             </div>
                             <div class="sub-wheather">
                               <div class="thunder">
-                                
+
                               </div>
                               <div class="rain">
                                   <div class="droplet droplet1"></div>
@@ -240,9 +243,9 @@
                                 </div>
                             </div>
                           </div>
-                        </div>                   
+                        </div>
                     </div>
-                  </div>                    
+                  </div>
                 </div>
 
                 <div class="col-md-12" style="padding:20px;">
@@ -300,10 +303,10 @@
                                             <b><span class="icon-clock icons"></span> Sekarang Pada Jam 15:00</b>
                                         </div>
                                         <div class="calendar">
-                                          
+
                                         </div>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -341,7 +344,7 @@
                                   <h4>Report</h4>
                                 </div>
                                 <div class="panel-body">
-                                    
+
                                   <div class="media">
                                     <div class="media-left">
                                         <span class="icon-folder icons" style="font-size:2em;"></span>
@@ -538,7 +541,7 @@
       		  </div>
           <!-- end: content -->
 
-    
+
           <!-- start: right menu -->
             <div id="right-menu">
               <ul class="nav nav-tabs">
@@ -573,7 +576,7 @@
                         <p>Hi there.?</p>
                       </div>
                       <div class="gadget">
-                        <span class="fa  fa-mobile-phone fa-2x"></span> 
+                        <span class="fa  fa-mobile-phone fa-2x"></span>
                       </div>
                       <div class="dot"></div>
                     </li>
@@ -584,7 +587,7 @@
                         <p>Hi there.?</p>
                       </div>
                       <div class="gadget">
-                        <span class="fa  fa-desktop"></span> 
+                        <span class="fa  fa-desktop"></span>
                       </div>
                       <div class="dot"></div>
                     </li>
@@ -611,7 +614,7 @@
                         <p>Hi there.?</p>
                       </div>
                       <div class="gadget">
-                        <span class="fa  fa-mobile-phone fa-2x"></span> 
+                        <span class="fa  fa-mobile-phone fa-2x"></span>
                       </div>
                       <div class="dot"></div>
                     </li>
@@ -630,7 +633,7 @@
                         <p>Hi there.?</p>
                       </div>
                       <div class="gadget">
-                        <span class="fa  fa-mobile-phone fa-2x"></span> 
+                        <span class="fa  fa-mobile-phone fa-2x"></span>
                       </div>
                       <div class="dot"></div>
                     </li>
@@ -657,7 +660,7 @@
                         <p>Hi there.?</p>
                       </div>
                       <div class="gadget">
-                        <span class="fa  fa-mobile-phone fa-2x"></span> 
+                        <span class="fa  fa-mobile-phone fa-2x"></span>
                       </div>
                       <div class="dot"></div>
                     </li>
@@ -668,7 +671,7 @@
                         <p>Hi there.?</p>
                       </div>
                       <div class="gadget">
-                        <span class="fa  fa-mobile-phone fa-2x"></span> 
+                        <span class="fa  fa-mobile-phone fa-2x"></span>
                       </div>
                       <div class="dot"></div>
                     </li>
@@ -1014,9 +1017,9 @@
 
                 </div>
               </div>
-            </div>  
+            </div>
           <!-- end: right menu -->
-          
+
       </div>
 
       <!-- start: Mobile -->
@@ -1026,7 +1029,7 @@
                 <ul class="nav nav-list">
                     <li class="active ripple">
                       <a class="tree-toggle nav-header">
-                        <span class="fa-home fa"></span>Dashboard 
+                        <span class="fa-home fa"></span>Dashboard
                         <span class="fa-angle-right fa right-arrow text-right"></span>
                       </a>
                       <ul class="nav nav-list tree">
@@ -1152,7 +1155,7 @@
                     <li><a href="credits.html">Credits</a></li>
                   </ul>
             </div>
-        </div>       
+        </div>
       </div>
       <button id="mimin-mobile-menu-opener" class="animated rubberBand btn btn-circle btn-danger">
         <span class="fa fa-bars"></span>
@@ -1163,8 +1166,8 @@
     <script src="asset/js/jquery.min.js"></script>
     <script src="asset/js/jquery.ui.min.js"></script>
     <script src="asset/js/bootstrap.min.js"></script>
-   
-    
+
+
     <!-- plugins -->
     <script src="asset/js/plugins/moment.min.js"></script>
     <script src="asset/js/plugins/fullcalendar.min.js"></script>
@@ -1364,7 +1367,7 @@
                 });
 
             };
-        
+
         //  end:  Chart =============
 
         // start: Calendar =========
