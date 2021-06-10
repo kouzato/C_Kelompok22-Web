@@ -34,7 +34,7 @@ Route::get('/dashboard', [DashboardController::class, 'index'] );
 //     return view('cobalogin');
 // });
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
