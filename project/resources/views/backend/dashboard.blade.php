@@ -7,15 +7,15 @@
                 <div class="panel">
                   <div class="panel-body">
                       <div class="col-md-6 col-sm-12">
-                        <h3 class="animated fadeInLeft">Customer Service</h3>
+                        <h3 class="animated fadeInLeft">Selamat Datang</h3>
                         <p class="animated fadeInDown"><span class="fa  fa-map-marker"></span> Jember,Indonesia</p>
 
                         <ul class="nav navbar-nav">
-                            <li><a href="" >Impedit</a></li>
-                            <li><a href="" class="active">Virtute</a></li>
-                            <li><a href="">Euismod</a></li>
-                            <li><a href="">Explicar</a></li>
-                            <li><a href="">Rebum</a></li>
+                            <li><a href="" ></a></li>
+                            <li><a href="" class="active"></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-sm-12">
@@ -99,7 +99,7 @@
                                     </div>
                                     <div class="panel-body padding-0">
                                         <div class="col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert">
-                                            <h2>Checking Your Server!</h2>
+                                            <h2>Jadwal</h2>
                                             <p>Daily Check on Server status, mostly looking at servers with alerts/warnings</p>
                                             <b><span class="icon-clock icons"></span> Today at 15:00</b>
                                         </div>
@@ -227,15 +227,15 @@
                             <div class="col-md-12 padding-0">
                               <div class="panel bg-light-blue">
                                 <div class="panel-body text-white">
-                                   <p class="animated fadeInUp quote">Lorem ipsum dolor sit amet, consectetuer adipiscing elit Ut wisi..."</p>
+                                   <p class="animated fadeInUp quote">Wah Sangat Membantu sekali...."</p>
                                     <div class="col-md-12 padding-0">
                                       <div class="text-left col-md-7 col-xs-12 col-sm-7 padding-0">
                                         <span class="fa fa-twitter fa-2x"></span>
-                                        <span>22 May, 2020 via mobile</span>
+                                        <span>22 May, 2021 via Iphone</span>
                                       </div>
                                       <div style="padding-top:8px;" class="text-right col-md-5 col-xs-12 col-sm-5 padding-0">
-                                        <span class="fa fa-retweet"></span> 2000
-                                        <span class="fa fa-star"></span> 3000
+                                        <span class="fa fa-retweet"></span> 87
+                                        <span class="fa fa-star"></span> 187
                                       </div>
                                     </div>
                                 </div>
