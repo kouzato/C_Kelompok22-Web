@@ -28,13 +28,19 @@ Route::get('/', function () {
 });
 
 
-Route::get('/dashboard', [DashboardController::class, 'index'] );
+//Route::get('/dashboard', [DashboardController::class, 'index'] );
 
-// Route::get('/login', function () {
-//     return view('cobalogin');
-// });
+ //Route::get('/login', function () {
+   // return view('cobalogin');
+ //});
 
 // Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
+Route::get('/dashboard', [App\Http\Controllers\backend\DashboardController::class, 'index'])->name('dashboard');
+Auth::routes();
+
+Route::resource('dashboardpasien', 'DashboardPasienController');
+Route::get('/dashboard2', [App\Http\Controllers\backend\DashboardPasienController::class, 'index'])->name('index');
+
+

@@ -45,7 +45,7 @@ class LoginController extends Controller
             'password' => 'required|string|min:6',
         ]);
 
-/*lakukan pengecekan, jika inputan dari username formatnya adalah email, maka kita lakukan
+/*lakukan pengecekan, jika inputan dari username formatnya adalah email, maka kita lakukan 
 proses authentication menggunakan email, selain itu akan menggunakan username */
 
 $loginType = filter_var($request->username, FILTER_VALIDATE_EMAIL) ? 'email' : 'username';
@@ -68,3 +68,4 @@ return redirect()->route('dashboard');
 return redirect()->route('login')->with(['error' => 'Username atau Password salah!!!']);
 }
 }
+

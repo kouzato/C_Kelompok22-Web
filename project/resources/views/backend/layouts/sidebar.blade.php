@@ -13,7 +13,7 @@
                       </a>
                       <ul class="nav nav-list tree">
                           <li><a href="dashboard-v1.html">Dashboard Admin</a></li>
-                          <li><a href="dashboard-v2.html">Dashboard Pasien</a></li>
+                          <li><a href="dashboard2">Dashboard Pasien</a></li>
                       </ul>
                     </li>
                     <li class="ripple">
