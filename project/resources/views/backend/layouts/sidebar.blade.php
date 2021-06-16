@@ -8,7 +8,7 @@
                       <p class="animated fadeInRight">Sat,October 1st 2029</p>
                     </li>
                     <li class="active ripple">
-                      <a class="tree-toggle nav-header"><span class="fa-home fa"></span> Dashboard 
+                      <a class="tree-toggle nav-header"><span class="fa-home fa"></span> Dashboard
                         <span class="fa-angle-right fa right-arrow text-right"></span>
                       </a>
                       <ul class="nav nav-list tree">
@@ -18,11 +18,14 @@
                     </li>
                     <li class="ripple">
                       <a class="tree-toggle nav-header">
-                        <span class="fa-diamond fa"></span> Artikel
+                        <span class="fa-diamond fa"></span> Form Menu
                         <span class="fa-angle-right fa right-arrow text-right"></span>
                       </a>
                       <ul class="nav nav-list tree">
                         <li><a href="artikel">Artikel</a></li>
+                      </ul>
+                      <ul class="nav nav-list tree">
+                        <li><a href="biodata">Biodata Dokter</a></li>
                       </ul>
                     </li>
                     <li class="ripple"><a class="tree-toggle nav-header"><span class="fa fa-check-square-o"></span> Upload  <span class="fa-angle-right fa right-arrow text-right"></span> </a>

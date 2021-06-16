@@ -85,6 +85,9 @@
                 <div class="text-center" style="padding:5px;">
                     <a href="register">Signup</a>
                 </div>
+                <div class="text-center" style="padding:5px;">
+                    <a href="home">Home</a>
+                </div>
             </div>
         </form>
 
