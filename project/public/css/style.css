@@ -297,22 +297,22 @@ p.quote{
 /*end: product grid*/
 
 /*start: Login*/
- .form-signin-wrapper{background: #f7941d !important;}
+ .form-signin-wrapper{background: #2196f3 !important;}
  .form-signin{
          max-width: 330px;
          padding: 15px;
          margin: 0 auto;
     }
-    .form-signin a{color: rgb(255, 255, 255) !important;font-weight: bold;}
+    .form-signin a{color: #fff !important;font-weight: bold;}
     .form-signin .btn{margin-top: 30px;}
     .form-signin .form-group{margin-bottom: 20px !important;}
-    .form-signin .panel{background: #f7941d;color: rgb(255, 255, 255);padding: 10px;border:none !important;box-shadow: 0 7px 16px #000000, 0 4px 5px #000000;}
+    .form-signin .panel{background: #2196f3;color: #fff;padding: 10px;border:none !important;box-shadow: 0 7px 16px #0a86e9, 0 4px 5px #0a86e9;}
     .form-signin .panel-body{padding-bottom: 50px;padding-top: 30px;}
     .form-signin .atomic-number{font-size: 20px;}
     .form-signin .atomic-symbol{font-size: 10em !important;font-weight: 500;padding-bottom: 20spx;}
     .form-signin .element-name,.form-signin .atomic-mass{font-size: 18px;margin-top: -10px;font-weight: 600;line-height: 1.2;}
-    .form-signin label{color:rgb(255, 255, 255) !important;}
-    .form-signin .bar:before,.form-signin .bar:after{background-color:rgb(255, 255, 255) !important;}
+    .form-signin label{color:#fff !important;}
+    .form-signin .bar:before,.form-signin .bar:after{background-color:#fff !important;}
 /*end: login*/
 
 /*start:profile v1*/
@@ -384,8 +384,7 @@ p.quote{
    
     .search-v1 #search-v1-images .post { height: 100px; background: cyan; margin-bottom: 20px; }
     .search-v1 #search-v1-images .tall { height: 200px; }
-    }
-
+}
 /*end: search v1*/
 
 

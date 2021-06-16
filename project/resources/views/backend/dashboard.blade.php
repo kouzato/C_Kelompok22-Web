@@ -18,6 +18,7 @@
                             <li><a href=""></a></li>
                         </ul>
                     </div>
+
                     <div class="col-md-6 col-sm-12">
                         <div class="col-md-6 col-sm-6 text-right" style="padding-left:10px;">
                           <h3 style="color:#DDDDDE;"><span class="fa  fa-map-marker"></span> Jember</h3>
@@ -48,6 +49,24 @@
                     </div>
                   </div>
                 </div>
+                
+                <div class="single_slider slider_bg_1 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="slider_text">
+                            <h3>We Care 
+                            <br> 
+                            <span>Your Pets</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dog_thumb d-none d-lg-block">
+                <img src="img/banner/dog.png" alt="">
+            </div>
+        </div>
 
                 <div class="col-md-12" style="padding:20px;">
                     <div class="col-md-12 padding-0">
@@ -57,7 +76,8 @@
                                     <div class="panel box-v1">
                                       <div class="panel-heading bg-white border-none">
                                         <div class="col-md-6 col-sm-6 col-xs-6 text-left padding-0">
-                                          <h4 class="text-left">Visit</h4>
+                                          <h4 class="text-left"></h4>
+                                          <img src="asset/img/dashboard.jpg" class="img-responsive"/>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 text-right">
                                            <h4>
@@ -67,16 +87,18 @@
                                       </div>
                                       <div class="panel-body text-center">
                                         <h1></h1>
-                                        <p>User active</p>
+                                        <p>Perawatan Hewan Anda Sangatlah Penting, jangan sampai peliharaan anda mengalami hal hal yang tidak diinginkan</p>
                                         <hr/>
                                       </div>
                                     </div>
                                 </div>
+
                                 <div class="col-md-6">
                                     <div class="panel box-v1">
                                       <div class="panel-heading bg-white border-none">
                                         <div class="col-md-6 col-sm-6 col-xs-6 text-left padding-0">
-                                          <h4 class="text-left">Orders</h4>
+                                          <h4 class="text-left"></h4>
+                                          <img src="asset/img/dashboard2.jpg" class="img-responsive"/>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 text-right">
                                            <h4>
@@ -85,36 +107,42 @@
                                         </div>
                                       </div>
                                       <div class="panel-body text-center">
-                                        <h1>8</h1>
-                                        <p>New Orders</p>
+                                        <h1></h1>
+                                        <p>Pelayanan Terbaik Sekabupaten Jember</p>
                                         <hr/>
                                       </div>
                                     </div>
                                 </div>
                             </div>
+
+                            
                             <div class="col-md-12">
                                 <div class="panel box-v4">
                                     <div class="panel-heading bg-white border-none">
-                                      <h4><span class="icon-notebook icons"></span> Agenda</h4>
+                                      <h4><span class="icon-notebook icons"></span> Temukan Kami</h4>
                                     </div>
                                     <div class="panel-body padding-0">
                                         <div class="col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert">
-                                            <h2>Jadwal</h2>
+                                            <h2>Alamat</h2>
                                             <p></p>
-                                            <b><span class="icon-clock icons"></span> Today at 15:00</b>
+                                            <b><span class="icon-clock icons"></span> Jalan Pb Sudirman no 98 Jember</b>
                                         </div>
                                         <div class="">
+                                        <img src="asset/img/maps.jpg" class="img-responsive"/>
 
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-md-4">
                             <div class="col-md-12 padding-0">
                               <div class="panel box-v2">
                                   <div class="panel-heading padding-0">
-                                    <img src="asset/img/bg2.jpg" class="box-v2-cover img-responsive"/>
+
+                                     <img src="asset/img/bg2.jpg" class="box-v2-cover img-responsive"/> 
+<!--
                                     <div class="box-v2-detail">
                                       <img src="asset/img/avatar.jpg" class="img-responsive"/>
                                       <span class="username"><h4>{{ Auth::user()->name }}</h4></span>
@@ -138,6 +166,7 @@
                                   </div>
                               </div>
                             </div>
+                            
 
                             <div class="col-md-12 padding-0">
                               <div class="panel box-v3">
@@ -340,6 +369,7 @@
                     </div>
                 </div>
       		  </div>
+            -->
           <!-- end: content -->
 
           @endsection

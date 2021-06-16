@@ -35,20 +35,20 @@
         <nav class="navbar navbar-default header navbar-fixed-top">
           <div class="col-md-12 nav-wrapper">
             <div class="navbar-header" style="width:100%;">
-                <a href="index.html" class="navbar-brand"> 
-                 <b>MIMIN</b>
+                <a href="dashboard" class="navbar-brand"> 
+                 <b>Veterinary care</b>
                 </a>
 
               <ul class="nav navbar-nav search-nav">
-                  <li class="active"><a href="#">Menu Item</a></li>
+                  <li class="active"><a href="#"></a></li>
                   <li class="dropdown menu-large">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Mega<b class="caret"></b> </a>
+                    <a href="#" class="dropdown-toggle" data-toggle=""> <b class="caret"></b> </a>
                     <ul class="dropdown-menu megamenu row">
                       <li>
                        
                         <div class="col-sm-6 col-md-3 sub-megamenu">
                           <div class="col-md-12" style="padding-top:10px;">
-                              <h4 style="margin-left:10px;"><b>Adipisicing</b></h4>
+                              <h4 style="margin-left:10px;"><b></b></h4>
                           </div>
                           <div class="col-sm-6">
                             <ul class="nav">
@@ -139,7 +139,7 @@
               </ul>
 
               <ul class="nav navbar-nav navbar-right user-nav">
-                <li class="user-name"><span>Akihiko Avaron</span></li>
+                <li class="user-name"><span><h4>{{ Auth::user()->name }}</h4></span></li>
                   <li class="dropdown avatar-dropdown">
                    <img src="asset/img/avatar.jpg" class="img-circle avatar" alt="user name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"/>
                    <ul class="dropdown-menu user-dropdown">
