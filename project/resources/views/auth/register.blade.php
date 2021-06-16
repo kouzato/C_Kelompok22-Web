@@ -1,91 +1,135 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<html lang="en">
 
-@section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+<head>
 
-                <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
-                        @csrf
+    <meta charset="utf-8">
+    <meta name="description" content="Miminium Admin Template v.1">
+    <meta name="author" content="Isna Nur Azis">
+    <meta name="keyword" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VeterinaryCare</title>
 
-                        <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
+    <!-- start: Css -->
+    <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css">
 
-                            <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+    <!-- plugins -->
+    <link rel="stylesheet" type="text/css" href="asset/css/plugins/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="asset/css/plugins/simple-line-icons.css" />
+    <link rel="stylesheet" type="text/css" href="asset/css/plugins/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="asset/css/plugins/icheck/skins/flat/aero.css" />
+    <link href="asset/css/style.css" rel="stylesheet">
+    <!-- end: Css -->
 
-                                @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
+    <link rel="shortcut icon" href="asset/img/logomi.png">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
 
-                        <div class="form-group row">
-                            <label for="username" class="col-md-4 col-form-label text-md-right">Username</label>
+<body id="mimin" class="dashboard form-signin-wrapper">
 
-                            <div class="col-md-6">
-                                <input id="username" type="username" class="form-control @error('username') is-invalid @enderror" name="username" value="{{ old('username') }}" required autocomplete="username">
+    <div class="container">
 
-                                @error('username')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">Email</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
-
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
-                            </div>
-                        </div>
-
-                        <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Register') }}
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+        <form method="POST" class="form-signin" action="{{ route('register') }}">
+            @csrf
+            @if ($message = Session::get('error'))
+            <div class="alert alert-danger alert-block">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong>{{ $message }}</strong>
             </div>
-        </div>
+            @endif
+            @if ($message = Session::get('success'))
+            <div class="alert alert-success alert-block">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong>{{ $message }}</strong>
+            </div>
+            @endif
+                <div class="panel periodic-login">
+                    <span class="atomic-number"></span>
+                    <div class="panel-body text-center">
+                        <h1 class="atomic-symbol">Hi</h1>
+                        <p class="atomic-mass">Silahkan Mendaftar</p>
+                        <p class="element-name">VeterinaryCare</p>
+
+                        <i class="icons icon-arrow-down"></i>
+                        <div class="form-group form-animate-text" style="margin-top:40px !important;">
+                            <input type="text" class="form-text @error('name') is-invalid @enderror" name="name"
+                                required>
+                            <span class="bar"></span>
+                            <label>Name</label>
+                            @error('name')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                            @enderror
+                        </div>
+                        <div class="form-group form-animate-text" style="margin-top:40px !important;">
+                            <input type="text" class="form-text @error('username') is-invalid @enderror" name="username"
+                                required>
+                            <span class="bar"></span>
+                            <label>Username</label>
+                            @error('username')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                            @enderror
+                        </div>
+                        <div class="form-group form-animate-text" style="margin-top:40px !important;">
+                            <input type="text" class="form-text @error('email') is-invalid @enderror" name="email"
+                                required>
+                            <span class="bar"></span>
+                            <label>Email</label>
+                            @error('email')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                            @enderror
+                        </div>
+                        <div class="form-group form-animate-text" style="margin-top:40px !important;">
+                            <input type="password" class="form-text @error('password') is-invalid @enderror"
+                                name="password" required>
+                            <span class="bar"></span>
+                            <label>Password</label>
+                            @error('password')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                            @enderror
+                        </div>
+                        <input type="submit" class="btn col-md-12" value="SignUp" />
+                    </div>
+                    <div class="text-center" style="padding:5px;">
+                        <a href="login">Sudah Mempunyai Akun ?</a>
+                    </div>
+                </div>
+            </form>
+
     </div>
-</div>
-@endsection
+
+    <!-- end: Content -->
+    <!-- start: Javascript -->
+    <script src="asset/js/jquery.min.js"></script>
+    <script src="asset/js/jquery.ui.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+
+    <script src="asset/js/plugins/moment.min.js"></script>
+    <script src="asset/js/plugins/icheck.min.js"></script>
+
+    <!-- custom -->
+    <script src="asset/js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_flat-aero',
+                radioClass: 'iradio_flat-aero'
+            });
+        });
+
+    </script>
+    <!-- end: Javascript -->
+</body>
+
+</html>

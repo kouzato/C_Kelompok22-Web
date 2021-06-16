@@ -45,27 +45,34 @@ class LoginController extends Controller
             'password' => 'required|string|min:6',
         ]);
 
-/*lakukan pengecekan, jika inputan dari username formatnya adalah email, maka kita lakukan 
-proses authentication menggunakan email, selain itu akan menggunakan username */
+        /*lakukan pengecekan, jika inputan dari username formatnya adalah email, maka kita lakukan 
+        proses authentication menggunakan email, selain itu akan menggunakan username */
 
-$loginType = filter_var($request->username, FILTER_VALIDATE_EMAIL) ? 'email' : 'username';
+        $loginType = filter_var($request->username, FILTER_VALIDATE_EMAIL) ? 'email' : 'username';
 
-/* TAMPUNG INFORMASI LOGINNYA, DIMANA KOLOM TYPE PERTAMA BERSIFAT DINAMIS BERDASARKAN VALUE
-PENGECEKAN DIATAS */
+        /* TAMPUNG INFORMASI LOGINNYA, DIMANA KOLOM TYPE PERTAMA BERSIFAT DINAMIS BERDASARKAN VALUE
+        PENGECEKAN DIATAS */
 
-$login = [
-    $loginType => $request->username,
-    'password' => $request->password
-];
+        $login = [
+            $loginType => $request->username,
+            'password' => $request->password
+        ];
 
-/* LAKUKAN LOGIN */
-if (auth()->attempt($login)) {
-    //JIKA BERHASIL AKAN REDIRECT PADA HOME
-return redirect()->route('dashboard');
+        /* LAKUKAN LOGIN */
+        if (auth()->attempt($login)) {
+            //JIKA BERHASIL AKAN REDIRECT PADA HOME
+        return redirect()->route('dashboard');
 
-}
-//JIKA SALAH MAKA KEMBALI PADA HALAMAN LOGIN DAN AKAN ADA NOTIFIKASI YANG MUNCUL
-return redirect()->route('login')->with(['error' => 'Username atau Password salah!!!']);
-}
+        }
+        //JIKA SALAH MAKA KEMBALI PADA HALAMAN LOGIN DAN AKAN ADA NOTIFIKASI YANG MUNCUL
+        return redirect()->route('login')->with(['error' => 'Username atau Password salah!!!']);
+    }
+    public function logout(Request $request){
+            $this->guard()->logout();
+            $request->session()->flush();
+            $request->session()->regenerate();
+            return redirect('/login')
+                ->withSuccess('Terimakasih, selamat datang kembali!');
+    }
 }
 

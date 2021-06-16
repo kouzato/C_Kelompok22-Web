@@ -12,18 +12,17 @@
                         <span class="fa-angle-right fa right-arrow text-right"></span>
                       </a>
                       <ul class="nav nav-list tree">
-                          <li><a href="dashboard-v1.html">Dashboard Admin</a></li>
+                          <li><a href="dashboard">Dashboard Admin</a></li>
                           <li><a href="dashboard2">Dashboard Pasien</a></li>
                       </ul>
                     </li>
                     <li class="ripple">
                       <a class="tree-toggle nav-header">
-                        <span class="fa-diamond fa"></span> Layout
+                        <span class="fa-diamond fa"></span> Artikel
                         <span class="fa-angle-right fa right-arrow text-right"></span>
                       </a>
                       <ul class="nav nav-list tree">
-                        <li><a href="topnav.html">Top Navigation</a></li>
-                        <li><a href="boxed.html">Boxed</a></li>
+                        <li><a href="artikel">Artikel</a></li>
                       </ul>
                     </li>
                     <li class="ripple">

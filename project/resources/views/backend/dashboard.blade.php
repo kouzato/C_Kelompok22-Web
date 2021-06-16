@@ -66,7 +66,7 @@
                                         </div>
                                       </div>
                                       <div class="panel-body text-center">
-                                        <h1>20</h1>
+                                        <h1></h1>
                                         <p>User active</p>
                                         <hr/>
                                       </div>
