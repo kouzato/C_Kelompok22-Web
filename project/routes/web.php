@@ -46,4 +46,4 @@ Route::get('/artikel', [App\Http\Controllers\backend\ArtikelController::class, '
 Route::get('/biodata', [App\Http\Controllers\backend\BiodataController::class, 'index'])->name('biodata');
 Route::get('/upload', [App\Http\Controllers\backend\UploadController::class, 'index'])->name('upload');
 Route::get('/profile', [App\Http\Controllers\backend\ProfileController::class, 'index'])->name('profile');
-
+Route::get('/credits', [App\Http\Controllers\backend\CreditsController::class, 'index'])->name('credits');
