@@ -36,7 +36,7 @@
                         <li><a href="#"></a></li>
                       </ul>
                     </li>
-                    <li><a href="credits.html">Credits</a></li>
+                    <li><a href="credits">Credits</a></li>
                   </ul>
                 </div>
             </div>
