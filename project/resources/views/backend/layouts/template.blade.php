@@ -590,7 +590,6 @@
     <script src="asset/js/plugins/maps/jquery.vmap.world.js"></script>
     <script src="asset/js/plugins/jquery.vmap.sampledata.js"></script>
     <script src="asset/js/plugins/chart.min.js"></script>
-    <script src="asset/js/plugins/moment.min.js"></script>
 <script src="asset/js/plugins/jquery.knob.js"></script>
 <script src="asset/js/plugins/ion.rangeSlider.min.js"></script>
 <script src="asset/js/plugins/bootstrap-material-datetimepicker.js"></script>
@@ -600,6 +599,8 @@
 <script src="asset/js/plugins/jquery.validate.min.js"></script>
 <script src="asset/js/plugins/mediaelement-and-player.min.js"></script>
 <script src="asset/js/plugins/dropzone.js"></script>
+
+
 
 
 
