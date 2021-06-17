@@ -31,7 +31,7 @@
                     <li class="ripple"><a class="tree-toggle nav-header"><span class="fa fa-check-square-o"></span> Upload  <span class="fa-angle-right fa right-arrow text-right"></span> </a>
                       <ul class="nav nav-list tree">
                         <li><a href="upload">Admin</a></li>
-                        <li><a href="#">Profile</a></li>
+                        <li><a href="profile">Profile</a></li>
                         <li><a href="#"></a></li>
                         <li><a href="#"></a></li>
                       </ul>

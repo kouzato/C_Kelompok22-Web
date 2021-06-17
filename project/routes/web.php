@@ -44,5 +44,5 @@ Route::resource('dashboardpasien', 'DashboardPasienController');
 Route::get('/dashboard2', [App\Http\Controllers\backend\DashboardPasienController::class, 'index'])->name('index');
 Route::get('/artikel', [App\Http\Controllers\backend\ArtikelController::class, 'index'])->name('artikel');
 Route::get('/upload', [App\Http\Controllers\backend\UploadController::class, 'index'])->name('upload');
-
+Route::get('/profile', [App\Http\Controllers\backend\ProfileController::class, 'index'])->name('profile');
 
