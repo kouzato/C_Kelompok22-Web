@@ -36,7 +36,7 @@
                         <li><a href="#"></a></li>
                       </ul>
                     </li>
-                    <li><a href="credits">Credits</a></li>
+                    <li><a href="credits">Tentang Kami</a></li>
                   </ul>
                 </div>
             </div>
