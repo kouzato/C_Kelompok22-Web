@@ -69,7 +69,7 @@
 						    <h1 class="taital">Veterinary Care</h1>
 						    <p class="consectetur_text">Konsultasikan Hewan Peliharaan Anda</p>
 						    <div class="banner_bt">
-						    	<button class="read_bt"><a href="login">Mulai Yuk</button>
+                                <button class="read_bt"><a href="login">Mulai Yuk</button>
 						    </div>
 					    </div>
 				    </div>
