@@ -113,7 +113,10 @@
                         <input type="submit" class="btn col-md-12" value="SignUp" />
                     </div>
                     <div class="text-center" style="padding:5px;">
-                        <a href="login">Sudah Mempunyai Akun ?</a>
+                        <a href="login">Sudah Mempunyai Akun ? Sign in</a>
+                    </div>
+                    <div class="text-center" style="padding:5px;">
+                        <a href="/"><h4>Home</h4></a>
                     </div>
                 </div>
             </form>

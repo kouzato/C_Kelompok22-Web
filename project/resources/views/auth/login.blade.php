@@ -83,7 +83,7 @@
                     <input type="submit" class="btn col-md-12" value="SignIn" />
                 </div>
                 <div class="text-center" style="padding:5px;">
-                    <a href="register">Signup</a>
+                    <a href="register">Sign up</a>
                 </div>
                 <div class="text-center" style="padding:5px;">
                     <a href="/"><h4>Home</h4></a>
