@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css">
 
       <!-- plugins -->
-      
+
   <link rel="stylesheet" type="text/css" href="asset/css/plugins/animate.min.css"/>
   <link rel="stylesheet" type="text/css" href="asset/css/plugins/nouislider.min.css"/>
   <link rel="stylesheet" type="text/css" href="asset/css/plugins/select2.min.css"/>
@@ -598,15 +598,25 @@
 <script src="asset/js/plugins/select2.full.min.js"></script>
 <script src="asset/js/plugins/nouislider.min.js"></script>
 <script src="asset/js/plugins/jquery.validate.min.js"></script>
-
+<script src="asset/js/plugins/mediaelement-and-player.min.js"></script>
 <script src="asset/js/plugins/dropzone.js"></script>
-<script src="asset/js/plugins/jquery.nicescroll.js"></script>
 
 
 
     <!-- custom -->
      <script src="asset/js/main.js"></script>
      <script type="text/javascript">
+      $(document).ready(function(){
+   $('input').iCheck({
+    checkboxClass: 'icheckbox_flat-red',
+    radioClass: 'iradio_flat-red'
+  });
+   $('video,audio').mediaelementplayer({
+            alwaysShowControls: true,
+            videoVolume: 'vertical',
+            features: ['playpause','progress','volume','fullscreen']
+          });
+ });
       (function(jQuery){
 
         // start: Chart =============
