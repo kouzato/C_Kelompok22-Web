@@ -8,7 +8,7 @@
                 <span class="middle"></span>
                 <span class="bottom"></span>
               </div>
-                <a href="index.html" class="navbar-brand">
+                <a href="dashboard" class="navbar-brand">
                  <b>Veterinary care</b>
                 </a>
 

@@ -12,22 +12,22 @@
 <title>Vatcare</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
-<meta name="author" content="">	
+<meta name="author" content="">
 <!-- bootstrap css -->
-<link rel="stylesheet" type="text/css" href="asset/css/css2/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="asset2/css/bootstrap.min.css">
 <!-- style css -->
-<link rel="stylesheet" type="text/css" href="asset/css/css2/style.css">
+<link rel="stylesheet" type="text/css" href="asset2/css/style.css">
 <!-- Responsive-->
-<link rel="stylesheet" href="asset/css/css2/responsive.css">
+<link rel="stylesheet" href="asset2/css/responsive.css">
 <!-- fevicon -->
-<link rel="icon" href="asset/images/fevicon.png" type="image/gif" />
+<link rel="icon" href="asset2/images/fevicon.png" type="image/gif" />
 <!-- Scrollbar Custom CSS -->
-<link rel="stylesheet" href="css/css2/   jquery.mCustomScrollbar.min.css">
+<link rel="stylesheet" href="asset2/css/jquery.mCustomScrollbar.min.css">
 <!-- Tweaks for older IEs-->
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<!-- owl stylesheets --> 
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<!-- owl stylesheets -->
+<link rel="stylesheet" href="asset2/css/owl.carousel.min.css">
+<link rel="stylesheet" href="assete2/css/owl.theme.default.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
 </head>
@@ -43,7 +43,7 @@
 					<div class="menu_text">
 						<ul>
 							<li class="last"><a href="login">Log in / Register</li>
-							<li class="last"><a href=""><img src="asset/images/search-icon.png"></a></li>
+							<li class="last"><a href=""><img src="asset2/images/search-icon.png"></a></li>
 							<li class="active">
 							 <div id="myNav" class="overlay">
                                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -55,7 +55,7 @@
                               </div>
                             </div>
                              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-                            </div>	
+                            </div>
                             </li>
 						</ul>
 					</div>
@@ -111,7 +111,7 @@
     			<div class="row">
     				<div class="col-sm-7">
 						<div class="gallery_blog">
-                           <img src="asset/images/gallery-img1.jpg" style="max-width: 100%; height: 300px; width: 100%;">
+                           <img src="asset2/images/gallery-img1.jpg" style="max-width: 100%; height: 300px; width: 100%;">
                         <div class="overlay">
                             <div class="text"><strong>PuppyDogPetAnimal</strong></div>
                         </div>
@@ -119,7 +119,7 @@
     				</div>
     				<div class="col-sm-5">
 						<div class="gallery_blog">
-                           <img src="asset/images/gallery-img2.jpg" style="max-width: 100%; height: 300px; width: 100%;">
+                           <img src="asset2/images/gallery-img2.jpg" style="max-width: 100%; height: 300px; width: 100%;">
                         <div class="overlay">
                             <div class="text"><strong>PuppyDogPetAnimal</strong></div>
                         </div>
@@ -131,7 +131,7 @@
     			<div class="row">
     				<div class="col-sm-5">
 						<div class="gallery_blog">
-                           <img src="asset/images/gallery-img3.jpg" style="max-width: 100%; width: 100%;">
+                           <img src="asset2/images/gallery-img3.jpg" style="max-width: 100%; width: 100%;">
                         <div class="overlay">
                             <div class="text"><strong>PuppyDogPetAnimal</strong></div>
                         </div>
@@ -139,13 +139,13 @@
     				</div>
     				<div class="col-sm-7">
 						<div class="gallery_blog">
-                           <img src="asset/images/gallery-img4.jpg" style="max-width: 100%; height: 300px; width: 100%;">
+                           <img src="asset2/images/gallery-img4.jpg" style="max-width: 100%; height: 300px; width: 100%;">
                         <div class="overlay">
                             <div class="text"><strong>PuppyDogPetAnimal</strong></div>
                         </div>
 					    </div>
 						<div class="gallery_blog">
-                           <img src="asset/images/gallery-img5.jpg" style="max-width: 100%; height: 297px; width: 100%;">
+                           <img src="asset2/images/gallery-img5.jpg" style="max-width: 100%; height: 297px; width: 100%;">
                         <div class="overlay">
                             <div class="text"><strong>PuppyDogPetAnimal</strong></div>
                         </div>
@@ -169,7 +169,7 @@
 				</div>
     			</div>
     			<div class="col-sm-4">
-    				<div class="dog_img"><img src="asset/images/dog-img.png" style="max-width: 100%;"></div>
+    				<div class="dog_img"><img src="asset2/images/dog-img.png" style="max-width: 100%;"></div>
     			</div>
     		</div>
     	</div>
@@ -196,15 +196,15 @@
                             <div class="form-group">
                               <input type="text" class="email-bt" placeholder="Your Email" name="Email">
                             </div>
-                            
+
                             <div class="form-group">
                                 <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
                             </div>
-                          </form>   
-                       </div> 
+                          </form>
+                       </div>
                        <div class="send_btn">
                         <button type="button" class="main_bt"><a href="#">Send</a></button>
-                       </div>                   
+                       </div>
                     </div>
     		</div>
     	</div>
@@ -217,7 +217,7 @@
     				<div class="input-group mb-3">
                         <input class="email_bt" type="text" class="form-control" placeholder="Enter your email">
                      <div class="input-group-append">
-                        <button class="subscribe_bt" class="btn btn-primary" type="Subscribe">Subscribe</button>  
+                        <button class="subscribe_bt" class="btn btn-primary" type="Subscribe">Subscribe</button>
                      </div>
                     </div>
     			</div>
@@ -231,12 +231,12 @@
     	<div class="container">
     		<div class="mail_section">
     			<ul>
-    				<li class="footer-logo"><img src="asset/images/footer-logo.png"></li>
-    				<li class="footer-logo"><img src="asset/images/map-icon.png"><span class="map_text">Gb road 123 london Uk</span></li>
-    				<li class="footer-logo"><img src="asset/images/call-icon.png"><span class="map_text">(+71) 9876543210</span></li>
-    				<li class="footer-logo"><img src="asset/images/email-icon.png"><span class="map_text">Demo@gmail.com</span></li>
+    				<li class="footer-logo"><img src="asset2/images/footer-logo.png"></li>
+    				<li class="footer-logo"><img src="asset2/images/map-icon.png"><span class="map_text">Gb road 123 london Uk</span></li>
+    				<li class="footer-logo"><img src="asset2/images/call-icon.png"><span class="map_text">(+71) 9876543210</span></li>
+    				<li class="footer-logo"><img src="asset2/images/email-icon.png"><span class="map_text">Demo@gmail.com</span></li>
     			</ul>
-    	    </div> 
+    	    </div>
     	    <div class="footer_section_2">
 		        <div class="row">
     		        <div class="col-sm-6 col-md-6 col-lg-3">
@@ -245,29 +245,29 @@
     		        </div>
     		        <div class="col-sm-6 col-md-6 col-lg-3">
     		        	<h2 class="shop_text">Useful Links</h2>
-    		        	<div class="image-icon"><img src="asset/images/bulit-icon.png"><span class="pet_text">Pet Dictionary</span></div>
-    				    <div class="image-icon"><img src="asset/images/bulit-icon.png"><span class="pet_text">Help Links</span></div>
-    				    <div class="image-icon"><img src="asset/images/bulit-icon.png"><span class="pet_text">Pet Attitudes</span></div>
-    				    <div class="image-icon"><img src="asset/images/bulit-icon.png"><span class="pet_text">Call a Doctor</span></div>
-    				    <div class="image-icon"><img src="asset/images/bulit-icon.png"><span class="pet_text">Help a Pet</span></div>
+    		        	<div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Pet Dictionary</span></div>
+    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Help Links</span></div>
+    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Pet Attitudes</span></div>
+    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Call a Doctor</span></div>
+    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Help a Pet</span></div>
     		        </div>
     		        <div class="col-sm-6 col-md-6 col-lg-3">
     				    <h2 class="shop_text">Overview</h2>
-    				    <div class="image-icon"><img src="asset/images/bulit-icon.png"><span class="pet_text">Bacerim Dictionary</span></div>
-    				    <div class="image-icon"><img src="asset/images/bulit-icon.png"><span class="pet_text">Help Links</span></div>
-    				    <div class="image-icon"><img src="asset/images/bulit-icon.png"><span class="pet_text">bacerim Attitudes</span></div>    				
+    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Bacerim Dictionary</span></div>
+    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Help Links</span></div>
+    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">bacerim Attitudes</span></div>
     		        </div>
     			<div class="col-sm-6 col-md-6 col-lg-3">
     				<h2 class="adderess_text">Instagram</h2>
     				<div class="footer-img">
     					<div class="row">
     						<div class="col-sm-6">
-    							<div class="footer-img"><img src="asset/images/footer-img1.png" style="width: 100%;"></div>
-    							<div class="footer-img"><img src="asset/images/footer-img2.png" style="width: 100%;"></div>
+    							<div class="footer-img"><img src="asset2/images/footer-img1.png" style="width: 100%;"></div>
+    							<div class="footer-img"><img src="asset2/images/footer-img2.png" style="width: 100%;"></div>
     						</div>
     						<div class="col-sm-6">
-    							<div class="footer-img"><img src="asset/images/footer-img3.png" style="width: 100%;"></div>
-    							<div class="footer-img"><img src="asset/images/footer-img4.png" style="width: 100%;"></div>
+    							<div class="footer-img"><img src="asset2/images/footer-img3.png" style="width: 100%;"></div>
+    							<div class="footer-img"><img src="asset2/images/footer-img4.png" style="width: 100%;"></div>
     						</div>
     					</div>
     				</div>
@@ -279,10 +279,10 @@
 	        		    <div class="col-sm-12">
 	        			    <div class="icons">
 	        				    <ul>
-	        					    <li><a href="#"><img src="asset/images/fb-icon.png"></a></li>
-	        					    <li><a href="#"><img src="asset/images/twitter-icon.png"></a></li>
-	        					    <li><a href="#"><img src="asset/images/google-icon.png"></a></li>
-	        					    <li><a href="#"><img src="asset/images/linkedin-icon.png"></a></li>
+	        					    <li><a href="#"><img src="asset2/images/fb-icon.png"></a></li>
+	        					    <li><a href="#"><img src="asset2/images/twitter-icon.png"></a></li>
+	        					    <li><a href="#"><img src="asset2/images/google-icon.png"></a></li>
+	        					    <li><a href="#"><img src="asset2/images/linkedin-icon.png"></a></li>
 	        				    </ul>
 	        			    </div>
 	        		    </div>
@@ -295,16 +295,16 @@
 	<!-- section footer end -->
 
     <!-- Javascript files-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
+    <script src="asset2/js/jquery.min.js"></script>
+    <script src="asset2/js/popper.min.js"></script>
+    <script src="asset2/js/bootstrap.bundle.min.js"></script>
+      <script src="asset2/js/jquery-3.0.0.min.js"></script>
+      <script src="asset2/js/plugin.js"></script>
       <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <!-- javascript --> 
-      <script src="js/owl.carousel.js"></script>
+      <script src="asset2/js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="asset2/js/custom.js"></script>
+      <!-- javascript -->
+      <script src="asset2/js/owl.carousel.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
       <script>
       $(document).ready(function(){
@@ -312,16 +312,16 @@
          openEffect: "none",
          closeEffect: "none"
          });
-         
+
          $(".zoom").hover(function(){
-         
+
          $(this).addClass('transition');
          }, function(){
-         
+
          $(this).removeClass('transition');
          });
          });
-         </script> 
+         </script>
 
 
    <script>
@@ -333,6 +333,6 @@
    document.getElementById("myNav").style.width = "0%";
    }
 </script>
-     
+
 </body>
 </html>

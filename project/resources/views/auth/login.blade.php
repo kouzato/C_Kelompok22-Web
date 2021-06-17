@@ -86,7 +86,7 @@
                     <a href="register">Signup</a>
                 </div>
                 <div class="text-center" style="padding:5px;">
-                    <a href="home">Home</a>
+                    <a href="/"><h4>Home</h4></a>
                 </div>
             </div>
         </form>
