@@ -67,9 +67,9 @@
 					<div class="row">
 					    <div class="col-sm-12">
 						    <h1 class="taital">Veterinary Care</h1>
-						    <p class="consectetur_text">Konsultasikan Peliharaan Anda</p>
+						    <p class="consectetur_text">Konsultasikan Hewan Peliharaan Anda</p>
 						    <div class="banner_bt">
-						    	<button class="read_bt">Gas Kuy</button>
+						    	<button class="read_bt"><a href="login">Mulai Yuk</button>
 						    </div>
 					    </div>
 				    </div>
@@ -85,8 +85,8 @@
 	<div class="about_section">
 		<div class="about_text">
 			<div class="container">
-				<h1 class="about_taital_1"><strong><span style="color: #f7941d;">About</span> Dogs</strong></h1>
-				<p class="magna_text"> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer</p>
+				<h1 class="about_taital_1"><strong><span style="color: #f7941d;">Tentang</span> Kami</strong></h1>
+				<p class="magna_text"> Veterinarycare Merupakan Website Tentang Konsultasi Terhadap Peliharaan Anda Dengan Praktis</p>
 				<div class="about_bt">
 					<button class="more_bt">Read More</button>
 				</div>
@@ -102,8 +102,8 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-sm-12">
-    				<h1 class="about_taital"><strong><span style="color: #ffffff;">Our</span> Dogs</strong></h1>
-				    <p class="sed_text"> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer</p>
+    				<h1 class="about_taital"><strong><span style="color: #ffffff;">Banyak</span> Sekali Perawatan Hewan</strong></h1>
+				    <p class="sed_text"> Berbagai Macam Hewan Dapat Anda Konsultasikan</p>
 
     			</div>
     		</div>
