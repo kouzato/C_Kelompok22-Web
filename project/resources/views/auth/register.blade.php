@@ -90,9 +90,20 @@
                         </div>
                         <div class="form-group form-animate-text" style="margin-top:40px !important;">
                             <input type="password" class="form-text @error('password') is-invalid @enderror"
-                                name="password" required>
+                                name="password" required autocomplete="new-password">
                             <span class="bar"></span>
                             <label>Password</label>
+                            @error('password')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                            @enderror
+                        </div>
+                        <div class="form-group form-animate-text" style="margin-top:40px !important;">
+                            <input type="password" class="form-text @error('password') is-invalid @enderror"
+                                name="password_confirmation" id="password-confirm" required autocomplete="new-password">
+                            <span class="bar"></span>
+                            <label>Confirm Password</label>
                             @error('password')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
