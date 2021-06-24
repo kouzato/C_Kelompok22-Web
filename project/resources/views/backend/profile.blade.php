@@ -7,7 +7,7 @@
                 <div class="col-md-9  profile-v1-cover-wrap" style="padding-right:0px;">
                     <div class="profile-v1-pp">
                       <img src="asset/img/avatar.jpg"/>
-                      <h4>{{ Auth::user()->name }}</h4>
+                      <h2>{{ Auth::user()->name }}</h2>
                       <input type="button" class="btn btn-danger" value="follow" />
                     </div>
                     <div class="col-md-12 profile-v1-cover">
