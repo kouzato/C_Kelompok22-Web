@@ -23,7 +23,7 @@
                          class="fa-angle-right fa right-arrow text-right"></span> </a>
                  <ul class="nav nav-list tree">
                      <li><a href="profile">Profile</a></li>
-                     <li><a href="upload">List Dokter</a></li>
+                     <li><a href="listdokter">List Dokter</a></li>
                  </ul>
              </li>
              <li class="ripple">
