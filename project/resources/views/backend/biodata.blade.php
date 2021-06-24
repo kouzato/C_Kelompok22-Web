@@ -8,7 +8,7 @@
             <div class="col-md-12">
                 <h3 class="animated fadeInLeft">Biodata Dokter</h3>
                 <p class="animated fadeInDown">
-                    From Menu <span class="fa-angle-right fa"></span> Biodata Dokter
+                    Form Menu <span class="fa-angle-right fa"></span> Biodata Dokter
                 </p>
             </div>
         </div>
