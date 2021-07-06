@@ -89,7 +89,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <input class="submit btn btn-danger" type="submit" value="Send">
+                                <input class="submit btn btn-danger" type="submit" value="Submit">
                             </div>
                         </form>
                     </div>

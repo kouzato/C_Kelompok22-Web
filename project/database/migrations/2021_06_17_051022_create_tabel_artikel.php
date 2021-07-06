@@ -14,11 +14,11 @@ class CreateTabelArtikel extends Migration
     public function up()
     {
         Schema::create('tabel_artikel', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->string('judul');
             $table->string('penulis');
             $table->date('tanggal');
-            $table->string('keterangan')->nullable();
+            $table->string('keterangan');
             $table->string('isi');
             $table->timestamps();
         });
