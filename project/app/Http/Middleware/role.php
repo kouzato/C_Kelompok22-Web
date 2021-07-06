@@ -19,7 +19,7 @@ class role
     public function handle(Request $request, Closure $next, ...$level)
     {
         if (auth::user()-> role !=1){
-            return redirect()->route('error');
+            return redirect()->route('/');
         }
         return $next($request);
     }
