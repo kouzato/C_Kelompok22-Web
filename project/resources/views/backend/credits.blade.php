@@ -17,7 +17,7 @@
     <div class="col-md-12">
         <div class="panel">
             <div class="pull-right article-v1-time">
-                <em> July 1st 2021 - 00:00 Am</em></div>
+                <em></em></div>
             <div class="panel-body">
                 <div class="col-md-12 text-center article-v1-title">
                     <h2>VeterinaryCare</h2>
