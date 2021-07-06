@@ -43,7 +43,14 @@ Auth::routes();
 Route::resource('dashboardpasien', 'DashboardPasienController');
 Route::get('/dashboard2', [App\Http\Controllers\backend\DashboardPasienController::class, 'index'])->name('index');
 Route::get('/artikel', [App\Http\Controllers\backend\ArtikelController::class, 'index'])->name('artikel');
-Route::get('/biodata', [App\Http\Controllers\backend\BiodataController::class, 'index'])->name('biodata');
+Route::get('/biodatadokter', [App\Http\Controllers\backend\BiodataDokterController::class, 'index'])->name('biodatadokter');
 Route::get('/listdokter', [App\Http\Controllers\backend\ListdokterController::class, 'index'])->name('listdokter');
 Route::get('/profile', [App\Http\Controllers\backend\ProfileController::class, 'index'])->name('profile');
 Route::get('/credits', [App\Http\Controllers\backend\CreditsController::class, 'index'])->name('credits');
+Route::POST('/biodatadokter', [App\Http\Controllers\backend\BiodataDokterController::class, 'store'])->name('biodatadokter.store');
+Route::DELETE('/biodatadokter', [App\Http\Controllers\backend\BiodataDokterController::class, 'destroy'])->name('biodatadokter.destroy');
+Route::get('/biodatadokter/{id}', [App\Http\Controllers\backend\BiodataDokterController::class, 'edit'])->name('biodatadokter.edit');
+//Route::group(['namespace' => 'backend'], function()
+//{
+//Route::resource('biodata', 'BiodataController');
+//});
