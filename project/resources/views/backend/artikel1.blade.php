@@ -18,7 +18,7 @@
             <div class="col-md-8">
                 <div class="panel form-element-padding">
                     <div class="panel-heading">
-                        <h4>Biodata Dokter</h4>
+                        <h4>Tulis Artikel</h4>
                     </div>
                     <div class="panel-body" style="padding-bottom:30px;">
                         <form class="cmxform" id="signupForm" method="get" action="">
@@ -38,7 +38,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="text" class="form-text" id="validate_tanggal" name="validate_tanggal"
+                                    <input type="date" class="form-text" id="validate_tanggal" name="validate_tanggal"
                                         required>
                                     <span class="bar"></span>
                                     <label>Tanggal</label>
