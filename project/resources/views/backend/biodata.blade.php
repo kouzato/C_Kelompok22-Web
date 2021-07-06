@@ -29,29 +29,27 @@
                                     <span class="bar"></span>
                                     <label>Nama Dokter</label>
                                 </div>
-
-                                <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="text" class="form-text" id="validate_lastname" name="validate_lastname"
-                                        required>
-                                    <span class="bar"></span>
-                                    <label>Alamat</label>
-                                </div>
-
-                                <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="text" class="form-text" id="validate_username" name="validate_username"
-                                        required>
-                                    <span class="bar"></span>
-                                    <label>Username Dokter</label>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
                                     <input type="password" class="form-text" id="validate_password"
                                         name="validate_password" required>
                                     <span class="bar"></span>
                                     <label>Password Dokter</label>
                                 </div>
+                                <div class="form-group form-animate-text" style="margin-top:40px !important;">
+                                    <input type="text" class="form-text" id="validate_lastname" name="validate_lastname"
+                                        required>
+                                    <span class="bar"></span>
+                                    <label>Alamat</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group form-animate-text" style="margin-top:40px !important;">
+                                    <input type="text" class="form-text" id="validate_username" name="validate_username"
+                                        required>
+                                    <span class="bar"></span>
+                                    <label>Username Dokter</label>
+                                </div>
+
 
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
                                     <input type="password" class="form-text" id="validate_confirm_password"

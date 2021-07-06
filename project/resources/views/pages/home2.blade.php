@@ -48,10 +48,10 @@
 							 <div id="myNav" class="overlay">
                                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                              <div class="overlay-content">
-                             	<a href="index.html">Home</a>
-                                <a href="about.html">About</a>
-                                <a href="gallery.html">Gallery</a>
-                                <a href="contact.html">Contact</a>
+                             	<a href="">Home</a>
+                                <a href="">Tanya Dokter</a>
+                                <a href="">Artikel</a>
+                                <a href="">Lokasi PetCare</a>
                               </div>
                             </div>
                              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
