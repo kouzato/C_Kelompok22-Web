@@ -37,8 +37,13 @@ Route::get('/', function () {
 // Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/dashboard', [App\Http\Controllers\backend\DashboardController::class, 'index'])->name('dashboard');
+
 Auth::routes();
+Route::get('/dashboard', [App\Http\Controllers\backend\DashboardController::class, 'index'])->name('dashboard');
+
+route::get('/error',function (){
+  return view(error);
+})->name('error');
 
 Route::resource('dashboardpasien', 'DashboardPasienController');
 Route::get('/dashboard2', [App\Http\Controllers\backend\DashboardPasienController::class, 'index'])->name('index');
