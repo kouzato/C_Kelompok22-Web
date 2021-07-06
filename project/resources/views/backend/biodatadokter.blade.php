@@ -21,51 +21,54 @@
                         <h4>Biodata Dokter</h4>
                     </div>
                     <div class="panel-body" style="padding-bottom:30px;">
-                        <form class="cmxform" id="signupForm" method="get" action="">
+                        <form class="cmxform" id="signupForm" method="POST" action="{{ route('biodatadokter.store') }}">
+                        @csrf
                             <div class="col-md-6">
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="text" class="form-text" id="validate_firstname"
-                                        name="validate_firstname" required>
+                                    <input type="text" class="form-text" id="nama_dokter"
+                                        name="nama_dokter" required>
                                     <span class="bar"></span>
                                     <label>Nama Dokter</label>
                                 </div>
+
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="password" class="form-text" id="validate_password"
-                                        name="validate_password" required>
-                                    <span class="bar"></span>
-                                    <label>Password Dokter</label>
-                                </div>
-                                <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="text" class="form-text" id="validate_lastname" name="validate_lastname"
+                                    <input type="text" class="form-text" id="alamat" name="alamat"
                                         required>
                                     <span class="bar"></span>
                                     <label>Alamat</label>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
+
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="text" class="form-text" id="validate_username" name="validate_username"
+                                    <input type="text" class="form-text" id="username_dokter" name="username_dokter"
                                         required>
                                     <span class="bar"></span>
                                     <label>Username Dokter</label>
                                 </div>
+                            </div>
 
+                            <div class="col-md-6">
+                                <div class="form-group form-animate-text" style="margin-top:40px !important;">
+                                    <input type="password" class="form-text" id="password_dokter"
+                                        name="password_dokter" required>
+                                    <span class="bar"></span>
+                                    <label>Password Dokter</label>
+                                </div>
 
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="password" class="form-text" id="validate_confirm_password"
-                                        name="validate_confirm_password" required>
+                                    <input type="password" class="form-text" id="confirm_password_dokter"
+                                        name="confirm_password_dokter" required>
                                     <span class="bar"></span>
                                     <label>Confirm Password Dokter</label>
                                 </div>
 
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="text" class="form-text" id="validate_email" name="validate_email"
+                                    <input type="text" class="form-text" id="email_dokter" name="email_dokter"
                                         required>
                                     <span class="bar"></span>
                                     <label>Email Dokter</label>
                                 </div>
                             </div>
-                            <div class="col-md-12">
+                            <!--<div class="col-md-12">
                                 <div class="form-group form-animate-checkbox">
                                     <label>Foto Dokter</label>
                                     <input type="file" name="manualfile" class="fileupload-v1-file hidden" />
@@ -88,7 +91,7 @@
                                 </div>
                                 <div class="form-group form-animate-checkbox">
                                     <input type="checkbox" class="checkbox" id="validate_agree" name="validate_agree">
-                                    <label>Please agree to our policy</label>
+                                    <label>Please agree to our policy</label> -->
                                 </div>
                                 <input class="submit btn btn-danger" type="submit" value="Submit">
                             </div>
