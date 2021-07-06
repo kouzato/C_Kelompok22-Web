@@ -35,7 +35,7 @@
                      <li><a href="artikel">Form Artikel</a></li>
                  </ul>
                  <ul class="nav nav-list tree">
-                     <li><a href="biodata">Biodata Dokter</a></li>
+                     <li><a href="biodatadokter">Biodata Dokter</a></li>
                  </ul>
              </li>
              <li><a href="credits">Tentang Kami</a></li>
