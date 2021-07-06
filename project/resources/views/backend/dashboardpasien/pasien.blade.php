@@ -18,17 +18,11 @@
                 <div class="col-md-6">
                   <div class="box-v5 panel">
                     <div class="panel-heading padding-0 bg-white border-none">
-                        <textarea placeholder="what do you think?"></textarea>
+                        <textarea placeholder="Tulis Disini..."></textarea>
                     </div>
                     <div class="panel-body">
                       <div class="col-md-12 padding-0">
-                        <div class="col-md-6 col-sm-6 col-xs-6 tool">
-                          <a href="#">
-                            <span class="fa fa-map-marker fa-2x"></span>
-                          </a>
-                          <a href="#">
-                            <span class="fa fa-camera fa-2x"></span>
-                          </a>
+                        <div class="col-md-6 col-sm-6 col-xs-6 tool">  
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6 padding-0">
                           <button class="btn btn-round pull-right">
@@ -39,7 +33,7 @@
                       </div>
                     </div>
                   </div>
-                <div class="panel box-v6">
+              <!-- <div class="panel box-v6">
                      <div class="panel-heading">
                        <h4>Project Report
                         <span class="icon-options-vertical icons pull-right"></span>
@@ -288,7 +282,7 @@
                                     </div>
                             </center>
                         </div>
-                      </div>
+                      </div> -->
                   </div>
               </div>
               </div>
