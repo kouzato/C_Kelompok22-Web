@@ -457,34 +457,17 @@
                <div class="columns">
                
                 
-                
-                 <div class="col-lg-4 col-xs-12 text-center">
-                  <div class="box">
-                                <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
-                    <div class="box-title">
-                      <h3>Facebook</h3>
-                    </div>
-                    <div class="box-text">
-                      <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
-                    </div>
-                    <div class="box-btn">
-                        <a href="#">Learn More</a>
-                    </div>
-                   </div>
-                </div>	 
-                
-                
                  <div class="col-lg-4 col-xs-12 text-center">
                   <div class="box">
                       <i class="fa fa-google-plus fa-3x" aria-hidden="true"></i>
                     <div class="box-title">
-                      <h3>Google</h3>
+                      <h3>Google Maps</h3>
                     </div>
                     <div class="box-text">
-                      <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                      <span>TAMPILKAN MAPS.</span>
                     </div>
                     <div class="box-btn">
-                        <a href="#">Learn More</a>
+                        <a href="https://www.google.co.id/maps/search/dokter+hewan/@-8.1908457,113.7013166,13z/data=!3m1!4b1">Klik disini!</a>
                     </div>
                    </div>
                 </div>	 
