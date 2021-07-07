@@ -9,6 +9,6 @@ class ArtikelController extends Controller
 {
     public function index()
     {
-        return view('backend.artikel1');
+        return view('backend.artikel.artikel1');
     }
 }

@@ -11,6 +11,6 @@ class ListArtikelController extends Controller
     public function index()
     {
         $listartikel = DB::table('tabel_artikel')->get();
-        return view('backend.listartikel', compact('listartikel'));
+        return view('backend.artikel.listartikel', compact('listartikel'));
     }
 }
