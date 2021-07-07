@@ -21,16 +21,17 @@
                         <h4>Tulis Artikel</h4>
                     </div>
                     <div class="panel-body" style="padding-bottom:30px;">
-                        <form class="cmxform" id="signupForm" method="get" action="">
+                        <form class="cmxform" id="signupForm" method="POST" action="{{ route('listartikel.store') }}">
                             <div class="col-md-6">
+                            @csrf
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="text" class="form-text" id="judul" name="Judul"
+                                    <input type="text" class="form-text" id="judul" name="judul"
                                         required>
                                     <span class="bar"></span>
                                     <label>Judul</label>
                                 </div>
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="text" class="form-text" id="penulis" name="Penulis"
+                                    <input type="text" class="form-text" id="penulis" name="penulis"
                                         required>
                                     <span class="bar"></span>
                                     <label>Penulis</label>
@@ -38,7 +39,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="date" class="form-text" id="tanggal" name="Tanggal"
+                                    <input type="date" class="form-text" id="tanggal" name="tanggal"
                                         required>
                                     <span class="bar"></span>
                                     <label>Tanggal</label>
@@ -46,7 +47,7 @@
 
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
                                     <input type="text" class="form-text" id="keterangan"
-                                        name="Keterangan" required>
+                                        name="keterangan" required>
                                     <span class="bar"></span>
                                     <label>Keterangan</label>
                                 </div>
@@ -55,7 +56,7 @@
                             <label>Isi</label>
                                 <div class="box-v5 panel">
                                     <div class="panel-heading padding-0 bg-white border-none">
-                                        <textarea placeholder="what do you think?" style="resize: none;"></textarea>
+                                        <textarea id="isi" name="isi" placeholder="what do you think?" style="resize: none;"></textarea>
                                     </div>
                                     <div class="panel-body">
                                         <div class="sub-left-menu scroll">
@@ -72,7 +73,7 @@
                                                                     class="fileupload-v1-file hidden" />
                                                                 <input type="text"
                                                                     class="form-control fileupload-v1-path"
-                                                                    placeholder="File Path..." disabled>
+                                                                    placeholder="File Path..." enable>
                                                                 <span class="input-group-btn">
                                                                     <button class="btn fileupload-v1-btn"
                                                                         type="button"><i class="fa fa-folder"></i>

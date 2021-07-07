@@ -19,12 +19,12 @@ class ArtikelController extends Controller
     public function store(Request $request)
     {
         DB::table('tabel_artikel')->insert([
-            'Judul' => $request->judul,
-            'Penulis' => $request->penulis,
-            'Tanggal' => $request->tanggal,
-            'Keterangan' => $request->keterangan,
-            'Isi' => $request->isi,
-            'Foto' =>$request->foto,
+            'judul' => $request->judul,
+            'penulis' => $request->penulis,
+            'tanggal' => $request->tanggal,
+            'keterangan' => $request->keterangan,
+            'isi' => $request->isi,
+            'foto' =>$request->foto,
         ]);
 
         return redirect()->route('listartikel')
@@ -40,12 +40,12 @@ class ArtikelController extends Controller
     public function update(Request $request)
     {
       DB::table('tabel_artikel')->where('id',$request->id)->update([
-        'Judul' => $request->judul,
-            'Penulis' => $request->penulis,
-            'Tanggal' => $request->tanggal,
-            'Keterangan' => $request->keterangan,
-            'Isi' => $request->isi,
-            'Foto' => $request ->foto,
+        'judul' => $request->judul,
+        'penulis' => $request->penulis,
+        'tanggal' => $request->tanggal,
+        'keterangan' => $request->keterangan,
+        'isi' => $request->isi,
+        'foto' =>$request->foto,
       ]);
       return redirect()->route('artikel')
                       ->with('success','Data artikel berhasil diperbaharui.');
