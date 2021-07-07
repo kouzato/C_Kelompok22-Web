@@ -54,7 +54,7 @@ Route::get('/listartikel', [App\Http\Controllers\backend\ListArtikelController::
 Route::get('/profile', [App\Http\Controllers\backend\ProfileController::class, 'index'])->name('profile');
 Route::get('/credits', [App\Http\Controllers\backend\CreditsController::class, 'index'])->name('credits');
 Route::POST('/biodatadokter', [App\Http\Controllers\backend\BiodataDokterController::class, 'store'])->name('biodatadokter.store');
-Route::DELETE('/biodatadokter', [App\Http\Controllers\backend\BiodataDokterController::class, 'destroy'])->name('biodatadokter.destroy');
+Route::DELETE('/biodatadokter/{id}', [App\Http\Controllers\backend\BiodataDokterController::class, 'destroy'])->name('biodatadokter.destroy');
 Route::get('/biodatadokter/{id}', [App\Http\Controllers\backend\BiodataDokterController::class, 'edit'])->name('biodatadokter.edit');
 //Route::group(['namespace' => 'backend'], function()
 //{

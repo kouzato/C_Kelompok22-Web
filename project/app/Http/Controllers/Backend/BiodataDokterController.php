@@ -10,12 +10,12 @@ class BiodataDokterController extends Controller
 {
     public function index()
     {
-        return view('backend.biodatadokter');
+        return view('backend.biodatadokter.biodatadokter');
     }
     public function create()
     {
         $biodata_dokter = null;
-        return view('backend.biodata',compact('biodata'));
+        return view('backend.biodatadokter.biodatadokter',compact('biodata'));
     }
     public function store(Request $request)
     {
@@ -35,7 +35,7 @@ class BiodataDokterController extends Controller
     {
       $biodata_dokter = DB::table('biodata_dokter')->where('id',$id)->first();
       $admin_lecturer = "Mengubah";
-      return view('backend/biodatadokter', compact('biodata','admin_lecturer'));
+      return view('backend/biodatadokter.biodatadokter', compact('biodata_dokter','admin_lecturer'));
     }
 
     public function update(Request $request)
@@ -55,8 +55,8 @@ class BiodataDokterController extends Controller
     public function destroy($id)
     {
       DB::table('biodata_dokter')->where('id',$id)->delete();
-      return redirect()->route('listdokter')
-                      ->with('success','Data Pengalaman Kerja berhasil dihapus.');
+      return redirect()->route('biodatadokter.listdokter')
+                      ->with('success','Data Dokter berhasil dihapus.');
     }
 }
 

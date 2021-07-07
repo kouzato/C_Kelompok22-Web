@@ -11,6 +11,6 @@ class ListdokterController extends Controller
     public function index()
     {
         $biodatadokter = DB::table('biodata_dokter')->get();
-        return view('backend.listdokter', compact('biodatadokter'));
+        return view('backend.biodatadokter.listdokter', compact('biodatadokter'));
     }
 }
