@@ -13,4 +13,5 @@ class ListArtikelController extends Controller
         $listartikel = DB::table('tabel_artikel')->get();
         return view('backend.artikel.listartikel', compact('listartikel'));
     }
+    
 }

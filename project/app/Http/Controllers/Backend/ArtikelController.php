@@ -32,7 +32,7 @@ class ArtikelController extends Controller
     }
     public function edit($id)
     {
-      $biodata_dokter = DB::table('tabel_artikel')->where('id',$id)->first();
+      $tabel_artikel = DB::table('tabel_artikel')->where('id',$id)->first();
       $admin_lecturer = "Mengubah";
       return view('backend.artikel.artikel1', compact('tabel_artikel','admin_lecturer'));
     }
@@ -47,7 +47,7 @@ class ArtikelController extends Controller
         'isi' => $request->isi,
         'foto' =>$request->foto,
       ]);
-      return redirect()->route('artikel')
+      return redirect()->route('artikel1')
                       ->with('success','Data artikel berhasil diperbaharui.');
     }
 

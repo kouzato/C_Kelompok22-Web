@@ -53,13 +53,12 @@ Route::get('/listdokter', [App\Http\Controllers\backend\ListdokterController::cl
 Route::get('/listartikel', [App\Http\Controllers\backend\ListArtikelController::class, 'index'])->name('listartikel');
 Route::get('/profile', [App\Http\Controllers\backend\ProfileController::class, 'index'])->name('profile');
 Route::get('/credits', [App\Http\Controllers\backend\CreditsController::class, 'index'])->name('credits');
+
 Route::post('/biodatadokter', [App\Http\Controllers\backend\BiodataDokterController::class, 'store'])->name('biodatadokter.store');
 Route::delete('/biodatadokter/{id}', [App\Http\Controllers\backend\BiodataDokterController::class, 'destroy'])->name('biodatadokter.destroy');
 Route::get('/biodatadokter/{id}', [App\Http\Controllers\backend\BiodataDokterController::class, 'edit'])->name('biodatadokter.edit');
+
 Route::post('/listartikel', [App\Http\Controllers\backend\ArtikelController::class, 'store'])->name('listartikel.store');
 Route::delete('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelController::class, 'destroy'])->name('listartikel.destroy');
 Route::get('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelController::class, 'edit'])->name('listartikel.edit');
-//Route::group(['namespace' => 'backend'], function()
-//{
-//Route::resource('biodata', 'BiodataController');
-//});
+
