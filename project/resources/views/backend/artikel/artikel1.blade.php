@@ -21,7 +21,7 @@
                         <h4>Tulis Artikel</h4>
                     </div>
                     <div class="panel-body" style="padding-bottom:30px;">
-                        <form class="cmxform" id="signupForm" method="POST" action="{{ route('listartikel.store') }}">
+                        <form class="cmxform" id="signupForm" method="POST" action="{{ route('listartikel.store') }}" enctype="multipart/form-data">
                             <div class="col-md-6">
                             @csrf
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
