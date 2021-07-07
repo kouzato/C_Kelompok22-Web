@@ -54,9 +54,67 @@
                                     <th><input type="checkbox" class="icheck" name="checkbox1" /></th>
                                     <th>Judul</th>
                                     <th>Penulis</th>
-                                    <th>Tanggal</th>
+                                    <th>Tanggal Dokter</th>
                                     <th>Keterangan</th>
                                     <th>Isi</th>
-                                   
                                 </tr>
+
+                                @foreach ($listartikel as $item)
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox" class="icheck" name="checkbox1" /></td>
+                                    <td>{{$item->judul}}</td>
+                                    <td>{{$item->penulis}}</td>
+                                    <td>{{$item->tanggal}}</td>
+                                    <td>{{$item->keterangan}}</td>
+                                    <td>{{$item->isi}}</td>
+                                  </tr>
+                                  <td>
+                          <div class="btn-group">
+                            <form action="{{ route('listartikel.destroy',$item->id)}}" method="POST">
+                                        <a href=" {{ route('listartikel.edit',$item->id) }} "
+                                            class="btn btn-warning"><i class="fa fa-edit"></i></a>
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" class="btn btn-danger" name="button"
+                                            onclick="return confirm('Apakah anda yakin menghapus data ini ?')">
+                                            <i class="fa fa-trash-o"></i>
+                                        </button>
+                                        </form>
+                                        </div>
+                                        </td>
+                                        </tr>
+                                        @endforeach
+                                        </tbody>
+                                        </table>
+                </div>
+                <div class="col-md-6" style="padding-top:20px;">
+                    <span></span>
+                </div>
+                <div class="col-md-6">
+                    <ul class="pagination pull-right">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                       <!-- <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- end: content -->
 @endsection

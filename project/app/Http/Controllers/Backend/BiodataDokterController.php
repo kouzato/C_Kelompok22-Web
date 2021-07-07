@@ -55,7 +55,7 @@ class BiodataDokterController extends Controller
     public function destroy($id)
     {
       DB::table('biodata_dokter')->where('id',$id)->delete();
-      return redirect()->route('biodatadokter')
+      return redirect()->route('listdokter')
                       ->with('success','Data Dokter berhasil dihapus.');
     }
 }
