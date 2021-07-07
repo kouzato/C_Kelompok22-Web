@@ -24,6 +24,7 @@
                  <ul class="nav nav-list tree">
                      <li><a href="profile">Profile</a></li>
                      <li><a href="listdokter">List Dokter</a></li>
+                     <li><a href="listartikel">List Artikel</a></li>
                  </ul>
              </li>
              <li class="ripple">

@@ -50,6 +50,7 @@ Route::get('/dashboard2', [App\Http\Controllers\backend\DashboardPasienControlle
 Route::get('/artikel', [App\Http\Controllers\backend\ArtikelController::class, 'index'])->name('artikel');
 Route::get('/biodatadokter', [App\Http\Controllers\backend\BiodataDokterController::class, 'index'])->name('biodatadokter');
 Route::get('/listdokter', [App\Http\Controllers\backend\ListdokterController::class, 'index'])->name('listdokter');
+Route::get('/listartikel', [App\Http\Controllers\backend\ListArtikelController::class, 'index'])->name('listartikel');
 Route::get('/profile', [App\Http\Controllers\backend\ProfileController::class, 'index'])->name('profile');
 Route::get('/credits', [App\Http\Controllers\backend\CreditsController::class, 'index'])->name('credits');
 Route::POST('/biodatadokter', [App\Http\Controllers\backend\BiodataDokterController::class, 'store'])->name('biodatadokter.store');
