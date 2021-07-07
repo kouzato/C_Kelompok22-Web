@@ -24,13 +24,13 @@
                         <form class="cmxform" id="signupForm" method="get" action="">
                             <div class="col-md-6">
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="text" class="form-text" id="validate_judul" name="validate_judul"
+                                    <input type="text" class="form-text" id="judul" name="Judul"
                                         required>
                                     <span class="bar"></span>
                                     <label>Judul</label>
                                 </div>
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="text" class="form-text" id="validate_penulis" name="validate_penulis"
+                                    <input type="text" class="form-text" id="penulis" name="Penulis"
                                         required>
                                     <span class="bar"></span>
                                     <label>Penulis</label>
@@ -38,20 +38,21 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="date" class="form-text" id="validate_tanggal" name="validate_tanggal"
+                                    <input type="date" class="form-text" id="tanggal" name="Tanggal"
                                         required>
                                     <span class="bar"></span>
                                     <label>Tanggal</label>
                                 </div>
 
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="text" class="form-text" id="validate_keterangan"
-                                        name="validate_keterangan" required>
+                                    <input type="text" class="form-text" id="keterangan"
+                                        name="Keterangan" required>
                                     <span class="bar"></span>
                                     <label>Keterangan</label>
                                 </div>
                             </div>
                             <div class="col-md-12">
+                            <label>Isi</label>
                                 <div class="box-v5 panel">
                                     <div class="panel-heading padding-0 bg-white border-none">
                                         <textarea placeholder="what do you think?" style="resize: none;"></textarea>
