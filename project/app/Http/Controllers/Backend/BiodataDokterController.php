@@ -33,7 +33,7 @@ class BiodataDokterController extends Controller
     }
     public function edit($id)
     {
-      $pengalaman_kerja = DB::table('biodata_dokter')->where('id',$id)->first();
+      $biodata_dokter = DB::table('biodata_dokter')->where('id',$id)->first();
       $admin_lecturer = "Mengubah";
       return view('backend/biodatadokter', compact('biodata','admin_lecturer'));
     }

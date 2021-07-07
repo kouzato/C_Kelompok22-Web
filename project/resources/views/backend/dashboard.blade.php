@@ -10,6 +10,12 @@
                         <h3 class="animated fadeInLeft">Selamat Datang</h3>
                         <p class="animated fadeInDown"><span class="fa  fa-map-marker"></span> Jember,Indonesia</p>
 
+                        <!--<h1 class="jumbotron-heading">Veterinarycare</h1> -->
+                        <p class="lead text-muted mb-0">kami selalu berusaha untuk bisa melayani kebutuhan anda dalam memenuhi
+                          segala macam kebutuhan yang anda perlukan untuk hewan peliharaan anda. Kami juga selalu siap
+                          memberikan informasi secara maksimal serta selalu menyediakan produk-produk yang terbaik di
+                          setiap kelasnya dengan aneka macam pilihan varian.</p>
+
                         <ul class="nav navbar-nav">
                             <li><a href="" ></a></li>
                             <li><a href="" class="active"></a></li>
@@ -50,7 +56,10 @@
                   </div>
                 </div>
                 
-                <div class="single_slider slider_bg_1 d-flex align-items-center">
+                
+
+
+                <!--<div class="single_slider slider_bg_1 d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-md-6">
@@ -66,7 +75,7 @@
             <div class="dog_thumb d-none d-lg-block">
                 <img src="img/banner/dog.png" alt="">
             </div>
-        </div>
+        </div> -->
 
                 <div class="col-md-12" style="padding:20px;">
                     <div class="col-md-12 padding-0">
@@ -98,7 +107,7 @@
                                       <div class="panel-heading bg-white border-none">
                                         <div class="col-md-6 col-sm-6 col-xs-6 text-left padding-0">
                                           <h4 class="text-left"></h4>
-                                          <img src="asset/img/dashboard2.jpg" class="img-responsive"/>
+                                          <img src="asset/img/dashboard.jpg" class="img-responsive"/>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 text-right">
                                            <h4>
@@ -108,7 +117,7 @@
                                       </div>
                                       <div class="panel-body text-center">
                                         <h1></h1>
-                                        <p>Pelayanan Terbaik Sekabupaten Jember</p>
+                                        <p>Perawatan Hewan Anda Sangatlah Penting, jangan sampai peliharaan anda mengalami hal hal yang tidak diinginkan</p>
                                         <hr/>
                                       </div>
                                     </div>
@@ -123,12 +132,83 @@
                                     </div>
                                     <div class="panel-body padding-0">
                                         <div class="col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert">
-                                            <h2>Alamat</h2>
+                                            <h2>Bekerja Sama Dengan</h2>
                                             <p></p>
-                                            <b><span class="icon-clock icons"></span> Jalan Pb Sudirman no 98 Jember</b>
+                                            <b><span class="icon-clock icons"></span> Veterinarycare Jember</b>
                                         </div>
                                         <div class="">
-                                        <img src="asset/img/maps.jpg" class="img-responsive"/>
+                                        <img src="" class="img-responsive"/>
+
+                                        <section class="our-webcoderskull padding-lg">
+                                          <div class="container">
+                                            <div class="row heading heading-icon">
+                                                <h2>Team</h2>
+                                            </div>
+                                            <ul class="row">
+                                              <li class="col-12 col-md-6 col-lg-3">
+                                                  <div class="cnt-block equal-hight" style="height: 349px;">
+                                                    <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
+                                                    <h3><a href="">M.Rahadian Nugraha</a></h3>
+                                                    <p>Jos Gak Seh</p>
+                                                    <!--<ul class="follow-us clearfix">
+                                                      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                                    </ul>-->
+                                                  </div>
+                                              </li>
+                                              <li class="col-12 col-md-6 col-lg-3">
+                                                  <div class="cnt-block equal-hight" style="height: 349px;">
+                                                    <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
+                                                    <h3><a href="#">Nadea Ajeng </a></h3>
+                                                    <p>Manteb Gak Seh</p>
+                                                    <!--<ul class="follow-us clearfix">
+                                                      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                                    </ul>-->
+                                                  </div>
+                                              </li>
+                                              <li class="col-12 col-md-6 col-lg-3">
+                                                  <div class="cnt-block equal-hight" style="height: 349px;">
+                                                    <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
+                                                    <h3><a href="http://www.webcoderskull.com/">Naufal Mahdi </a></h3>
+                                                    <p>Jos Gak Seh</p>
+                                                    <!--<ul class="follow-us clearfix">
+                                                      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                                    </ul>-->
+                                                  </div>
+                                               </li>
+                                              <li class="col-12 col-md-6 col-lg-3">
+                                                  <div class="cnt-block equal-hight" style="height: 349px;">
+                                                    <figure><img src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt=""></figure>
+                                                    <h3><a href="http://www.webcoderskull.com/">Alfian Chandra</a></h3>
+                                                    <p>Skuy Gak Seh</p>
+                                                    <!--<ul class="follow-us clearfix">
+                                                      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                      <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                                    </ul>-->
+                                                  </div>
+                                              </li>
+                                              <ul class="row">
+                                                <li class="col-12 col-md-6 col-lg-3">
+                                                    <div class="cnt-block equal-hight" style="height: 349px;">
+                                                      <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
+                                                      <h3><a href="">M.Wildan Hakim</a></h3>
+                                                      <p>Yok Gak Seh</p>
+                                                      <!--<ul class="follow-us clearfix">
+                                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                                      </ul>-->
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                          </div>
+                                        </section>
 
                                         </div>
                                     </div>
@@ -141,7 +221,7 @@
                               <div class="panel box-v2">
                                   <div class="panel-heading padding-0">
 
-                                     <img src="asset/img/bg2.jpg" class="box-v2-cover img-responsive"/> 
+                                     <img src="asset/img/maps.jpg" class="box-v2-cover img-responsive"/> 
 <!--
                                     <div class="box-v2-detail">
                                       <img src="asset/img/avatar.jpg" class="img-responsive"/>
@@ -371,5 +451,44 @@
       		  </div>
             -->
           <!-- end: content -->
+
+          <div class="social-box">
+            <div class="container">
+               <div class="columns">
+               
+                
+                
+                 <div class="col-lg-4 col-xs-12 text-center">
+                  <div class="box">
+                                <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+                    <div class="box-title">
+                      <h3>Facebook</h3>
+                    </div>
+                    <div class="box-text">
+                      <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                    </div>
+                    <div class="box-btn">
+                        <a href="#">Learn More</a>
+                    </div>
+                   </div>
+                </div>	 
+                
+                
+                 <div class="col-lg-4 col-xs-12 text-center">
+                  <div class="box">
+                      <i class="fa fa-google-plus fa-3x" aria-hidden="true"></i>
+                    <div class="box-title">
+                      <h3>Google</h3>
+                    </div>
+                    <div class="box-text">
+                      <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                    </div>
+                    <div class="box-btn">
+                        <a href="#">Learn More</a>
+                    </div>
+                   </div>
+                </div>	 
+                
+                 
 
           @endsection
