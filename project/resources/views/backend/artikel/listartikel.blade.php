@@ -57,6 +57,7 @@
                                     <th>Tanggal Dokter</th>
                                     <th>Keterangan</th>
                                     <th>Isi</th>
+                                    <th>Foto</th>
                                 </tr>
 
                                 @foreach ($listartikel as $item)
@@ -69,6 +70,7 @@
                                     <td>{{$item->tanggal}}</td>
                                     <td>{{$item->keterangan}}</td>
                                     <td>{{$item->isi}}</td>
+                                    <td>{{$item->foto}}</td>
                                   </tr>
                                   <td>
                           <div class="btn-group">

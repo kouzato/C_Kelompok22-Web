@@ -44,6 +44,7 @@ class ArtikelController extends Controller
             'Tanggal' => $request->tanggal,
             'Keterangan' => $request->keterangan,
             'Isi' => $request->isi,
+            'Foto' => $request ->foto,
       ]);
       return redirect()->route('artikel')
                       ->with('success','Data artikel berhasil diperbaharui.');

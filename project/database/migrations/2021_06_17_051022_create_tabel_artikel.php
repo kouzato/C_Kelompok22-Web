@@ -20,6 +20,7 @@ class CreateTabelArtikel extends Migration
             $table->date('tanggal');
             $table->string('keterangan');
             $table->string('isi');
+            $table->string('foto');
             $table->timestamps();
         });
     }

@@ -10,7 +10,7 @@ class ListArtikel extends Model
     protected $table = 'tabel_artikel';
     protected $primaryKey = 'id';
     protected $fillable = [
-        'judul', 'penulis', 'tanggal', 'keterangan', 'isi', 
+        'judul', 'penulis', 'tanggal', 'keterangan', 'isi','foto'
     ];
     use HasFactory;
 }
