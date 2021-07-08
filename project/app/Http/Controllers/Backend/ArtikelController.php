@@ -21,7 +21,7 @@ class ArtikelController extends Controller
       $request->validate([
         "foto" => "required|mimes:jpg,jpeg,png,svg"]);
         $foto = $request->foto->getClientOriginalName()."-".time();
-        $request->foto->move(public_path("asset","img"),$foto);
+        $request->foto->move(public_path('/img'),$foto);
 
         DB::table('tabel_artikel')->insert([
             'judul' => $request->judul,
