@@ -54,7 +54,7 @@
                                     <th><input type="checkbox" class="icheck" name="checkbox1" /></th>
                                     <th>Judul</th>
                                     <th>Penulis</th>
-                                    <th>Tanggal Dokter</th>
+                                    <th>Tanggal</th>
                                     <th>Keterangan</th>
                                     <th>Isi</th>
                                     <th>Foto</th>

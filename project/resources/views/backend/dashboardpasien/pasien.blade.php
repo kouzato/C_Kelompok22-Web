@@ -15,276 +15,45 @@
                       </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="box-v5 panel">
-                    <div class="panel-heading padding-0 bg-white border-none">
-                        <textarea placeholder="Tulis Disini..."></textarea>
-                    </div>
-                    <div class="panel-body">
-                      <div class="col-md-12 padding-0">
-                        <div class="col-md-6 col-sm-6 col-xs-6 tool">  
+                <div class="col-md-12 padding-0">
+                  <div class="col-md-12 padding-0">
+                    <div class="col-md-12 padding-0">
+                      <div class="panel box-shadow-none content-header">
+
+                  <div class="container">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title"> Artikel </h5>
+
+                        @foreach ($tabel_artikel as $tabel_artikel)
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="d-flex align-items-center">
+                            <img width="250px" height="200px" src="https://cdn0-production-images-kly.akamaized.net/gEhyzMxs6_zaBxYbSu0uSNKz_kk=/640x480/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2754932/original/005940800_1552970791-fotoHL_kucing.jpg"
+                            alt="">
+                            <div class="ml-3">
+                              <p>{{ $tabel_artikel->judul}}</p>
+                              <p>{{ $tabel_artikel->isi}}</p>
+                              <p class="text-muted">{{$tabel_artikel->created_at}} &middot;</p>
+                            </div>
+
+                          </div>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6 padding-0">
-                          <button class="btn btn-round pull-right">
-                            <span>SEND</span>
-                            <span class="icon-arrow-right icons"></span>
-                          </button>
-                        </div>
-                      </div>
+                        <!--<button class="btn btn-success">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                        </svg>
+                    </button>
+                    <button class="btn btn-danger">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                          </svg>
+                    </button>-->
+
+                        @endforeach
+
                     </div>
+
                   </div>
-              <!-- <div class="panel box-v6">
-                     <div class="panel-heading">
-                       <h4>Project Report
-                        <span class="icon-options-vertical icons pull-right"></span>
-                      </h4>
-                     </div>
-                    <div class="panel-body padding-0">
-                      <div class="col-md-12 padding-0">
-                          <div class="col-md-12 padding-0" style="height:127px;">
-                            <div class="col-md-12 col-sm-12 box-v6-content-bg" data-progress="100%">
-                              
-                            </div>
-                            <div class="col-md-12 col-sm-12 col-xs-12 padding-0 box-v6-content">
-                              <div class="col-md-10 col-sm-10 col-xs-10">
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
 
-                                <h4>Social Network App</h4>
-                                <p>Sat,October 1st 2029</p>
-                              </div>
-                              <div class="col-md-2 col-sm-2 hidden-xs text-center box-v6-progress">
-                                <h3>100%</h3>
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                      <div class="col-md-12 padding-0">
-                          <div class="col-md-12 padding-0" style="height:127px;">
-                            <div class="col-md-12 col-sm-12 box-v6-content-bg" data-progress="20%">
-                              
-                            </div>
-                            <div class="col-md-12 col-sm-12 col-xs-12 padding-0 box-v6-content">
-                              <div class="col-md-10 col-sm-10 col-xs-12">
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-
-                                <h4>Lorem Ipsum</h4>
-                                <p>Sat,October 1st 2029</p>
-                              </div>
-                              <div class="col-md-2 col-sm-2 hidden-xs text-center box-v6-progress">
-                                <h3>20%</h3>
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                      <div class="col-md-12 padding-0">
-                          <div class="col-md-12 padding-0" style="height:127px;">
-                            <div class="col-md-12 col-sm-12 box-v6-content-bg" data-progress="56%">
-                              
-                            </div>
-                            <div class="col-md-12 col-sm-12 col-xs-12 padding-0 box-v6-content">
-                              <div class="col-md-10 col-sm-10 col-xs-12">
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-
-                                <h4>Dolor sit amet</h4>
-                                <p>Sat,October 1st 2029</p>
-                              </div>
-                              <div class="col-md-2 col-sm-2 hidden-xs text-center box-v6-progress">
-                                <h3>56%</h3>
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                      <div class="col-md-12 padding-0">
-                          <div class="col-md-12 padding-0" style="height:127px;">
-                            <div class="col-md-12 col-sm-12 box-v6-content-bg" data-progress="85%">
-                              
-                            </div>
-                            <div class="col-md-12 col-sm-12 col-xs-12 padding-0 box-v6-content">
-                              <div class="col-md-10 col-sm-10 col-xs-12">
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-
-                                <h4>Magna aliqua</h4>
-                                <p>Sat,October 1st 2029</p>
-                              </div>
-                              <div class="col-md-2 col-sm-2 hidden-xs text-center box-v6-progress">
-                                <h3>85%</h3>
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                      <div class="col-md-12 padding-0">
-                          <div class="col-md-12 padding-0" style="height:127px;">
-                            <div class="col-md-12 col-sm-12 box-v6-content-bg" data-progress="93%">
-                              
-                            </div>
-                            <div class="col-md-12 col-sm-12 col-xs-12 padding-0 box-v6-content">
-                              <div class="col-md-10 col-sm-10 col-xs-12">
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-                                <img src="asset/img/avatar.jpg"/>
-
-                                <h4>Sed do eiusmod</h4>
-                                <p>Sat,October 1st 2029</p>
-                              </div>
-                              <div class="col-md-2 col-sm-2 hidden-xs text-center box-v6-progress">
-                                <h3>93%</h3>
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                    </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                  <div class="panel money-ex text-center">
-                      <div class="panel-heading"></div>
-                      <div class="panel-body">
-                        <div class="col-md-12">
-                         <div id="multi-axes-chart" style="height:240px;"></div>
-                        </div>
-                        <div class="col-md-12" style="margin-top:20px;">
-                             <div class="col-md-6 col-sm-6 col-xs-12 money-ex-left">
-                                <h1></h1>
-                              </div>
-                              <div class="col-md-6 col-sm-6 col-xs-12 money-ex-right">
-                                <h1></h1>
-                              </div>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="panel">
-                      <div class="panel-heading">
-                        <h4>Ready Stock</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                      </div>
-                      <div class="panel-body">
-                        <div class="col-md-12 responsive-table">
-                            <table class="table table-hover">
-                              <tr>
-                                <th>No</th>
-                                <th>Name</th>
-                                <th>Status</th>
-                                <th></th>
-                              </tr>
-                              <tr>
-                                <td>1</td>
-                                <td>Laptop Acer X291</td>
-                                <td>
-                                  <span class="label label-primary">NEW</span>
-                                </td>
-                                <td>
-                                  <div class="btn-group" role="group">
-                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Action
-                                      <span class="icon-arrow-down icons"></span>
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                      <li><a href="#">Confirm</a></li>
-                                      <li><a href="#">Ignore</a></li>
-                                    </ul>
-                                  </div>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>2</td>
-                                <td>LCD Tv 92Bd</td>
-                                <td><span class="label label-primary">NEW</span></td>
-                                <td>
-                                  <div class="btn-group" role="group">
-                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Action
-                                      <span class="icon-arrow-down icons"></span>
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                      <li><a href="#">Confirm</a></li>
-                                      <li><a href="#">Ignore</a></li>
-                                    </ul>
-                                  </div>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>3</td>
-                                <td>aX Microphone X291</td>
-                                <td><span class="label label-success">SOLD</span></td>
-                                <td>
-                                  <div class="btn-group" role="group">
-                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Action
-                                      <span class="icon-arrow-down icons"></span>
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                      <li><a href="#">Confirm</a></li>
-                                      <li><a href="#">Ignore</a></li>
-                                    </ul>
-                                  </div>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>4</td>
-                                <td>Laptop Aspire E1 -471G</td>
-                                <td><span class="label label-danger">CANCEL</span></td>
-                                <td>
-                                  <div class="btn-group" role="group">
-                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Action
-                                      <span class="icon-arrow-down icons"></span>
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                      <li><a href="#">Confirm</a></li>
-                                      <li><a href="#">Ignore</a></li>
-                                    </ul>
-                                  </div>
-                                </td>
-                              </tr>
-                               <tr>
-                                <td>5</td>
-                                <td>Speaker D82K</td>
-                                <td><span class="label label-success">SOLD</span></td>
-                                <td>
-                                  <div class="btn-group" role="group">
-                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Action
-                                      <span class="icon-arrow-down icons"></span>
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                      <li><a href="#">Confirm</a></li>
-                                      <li><a href="#">Ignore</a></li>
-                                    </ul>
-                                  </div>
-                                </td>
-                              </tr>
-                            </table>
-                            <center>
-                              <div class="btn-group" role="group" aria-label="..." style="margin-top:20px;">
-                                      <button type="button" class="btn">
-                                        <span class="icon-arrow-left icons"></span>
-                                      </button>
-                                      <button type="button" class="btn active">1</button>
-                                      <button type="button" class="btn">2</button>
-                                      <button type="button" class="btn">
-                                        <span class="icon-arrow-right icons"></span>
-                                      </button>
-                                    </div>
-                            </center>
-                        </div>
-                      </div> -->
-                  </div>
-              </div>
-              </div>
-            </div>
 @endsection
