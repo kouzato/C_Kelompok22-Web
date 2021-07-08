@@ -18,6 +18,20 @@ class ArtikelController extends Controller
     }
     public function store(Request $request)
     {
+      $request->validate([
+        "foto" => "required|mimes:jpg,jpeg,png,svg"]);
+        $foto = $request->foto->getClientOriginalName()."-".time();
+        $request->foto->move(public_path("asset","img"),$foto);
+
+        DB::table('tabel_artikel')->insert([
+            'judul' => $request->judul,
+            'penulis' => $request->penulis,
+            'tanggal' => $request->tanggal,
+            'keterangan' => $request->keterangan,
+            'isi' => $request->isi,
+            'foto' =>$foto,
+        ]);
+
         DB::table('tabel_artikel')->insert([
             'judul' => $request->judul,
             'penulis' => $request->penulis,

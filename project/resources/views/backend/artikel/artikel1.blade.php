@@ -69,7 +69,7 @@
                                                         <li>
                                                             <div class="form-group form-animate-checkbox">
                                                                 <label>Foto Artikel</label>
-                                                                <input type="file" name="manualfile"
+                                                                <input type="file" name="foto"
                                                                     class="fileupload-v1-file hidden" />
                                                                 <input type="text"
                                                                     class="form-control fileupload-v1-path"
