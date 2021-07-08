@@ -23,7 +23,7 @@
                   <div class="container">
                     <div class="card">
                       <div class="card-body">
-                        <h5 class="card-title"> Artikel </h5>
+                        <h2 > ARTIKEL </h2>
 
                         @foreach ($tabel_artikel as $tabel_artikel)
                         <div class="d-flex justify-content-between align-items-center">
@@ -31,7 +31,7 @@
                             <img width="250px" height="200px" src="https://cdn0-production-images-kly.akamaized.net/gEhyzMxs6_zaBxYbSu0uSNKz_kk=/640x480/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2754932/original/005940800_1552970791-fotoHL_kucing.jpg"
                             alt="">
                             <div class="ml-3">
-                              <p>{{ $tabel_artikel->judul}}</p>
+                              <h3><a href="youtube.com">{{ $tabel_artikel->judul}}</a></span> </h3>
                               <p>{{ $tabel_artikel->isi}}</p>
                               <p class="text-muted">{{$tabel_artikel->created_at}} &middot;</p>
                             </div>
