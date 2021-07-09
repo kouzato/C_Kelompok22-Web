@@ -63,6 +63,7 @@ Route::get('/credits3', [App\Http\Controllers\backend\Credits3Controller::class,
 Route::post('/biodatadokter', [App\Http\Controllers\backend\BiodataDokterController::class, 'store'])->name('biodatadokter.store');
 Route::delete('/biodatadokter/{id}', [App\Http\Controllers\backend\BiodataDokterController::class, 'destroy'])->name('biodatadokter.destroy');
 Route::get('/biodatadokter/{id}', [App\Http\Controllers\backend\BiodataDokterController::class, 'edit'])->name('biodatadokter.edit');
+Route::put('/biodatadokter/{id}', [App\Http\Controllers\backend\BiodataDokterController::class, 'update'])->name('biodatadokter.update');
 
 Route::post('/listartikel', [App\Http\Controllers\backend\ArtikelController::class, 'store'])->name('listartikel.store');
 Route::delete('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelController::class, 'destroy'])->name('listartikel.destroy');

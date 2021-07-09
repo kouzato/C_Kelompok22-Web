@@ -33,7 +33,7 @@
                     <div class="ml-3">
                       <h3>{{ $artikel->judul}} </h3>
                       <p>{{ $artikel->isi}}</p>
-                      <p class="text-muted">{{$artikel->created_at}} &middot;</p>
+                      <p class="text-muted">{{$artikel->tanggal}} &middot;</p>
                     </div>
 
                   </div>
