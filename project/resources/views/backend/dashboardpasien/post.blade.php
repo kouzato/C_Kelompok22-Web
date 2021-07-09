@@ -1,4 +1,4 @@
-@extends('backend.layouts.template')
+@extends('backend.layouts.template3')
 @section('content')
 <div id="content">
     <div class="col-md-12 padding-0">

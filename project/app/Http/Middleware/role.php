@@ -19,7 +19,7 @@ class role
     public function handle(Request $request, Closure $next, ...$level)
     {
         if (auth::user()-> role !=1){
-            return redirect()->to('/dashboard2');
+            return redirect()->to('/dashboard3');
         }
         return $next($request);
     }

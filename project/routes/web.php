@@ -47,6 +47,7 @@ route::get('/error',function (){
 
 Route::resource('dashboardpasien', 'DashboardPasienController');
 Route::get('/dashboard2', [App\Http\Controllers\backend\DashboardPasienController::class, 'index'])->name('index');
+Route::get('/dashboard3', [App\Http\Controllers\backend\Dashboard3Controller::class, 'index'])->name('index');
 
 Route::get('/artikel', [App\Http\Controllers\backend\ArtikelController::class, 'index'])->name('artikel');
 Route::get('/biodatadokter', [App\Http\Controllers\backend\BiodataDokterController::class, 'index'])->name('biodatadokter');
@@ -54,7 +55,10 @@ Route::get('/listdokter', [App\Http\Controllers\backend\ListdokterController::cl
 Route::get('/listartikel', [App\Http\Controllers\backend\ListArtikelController::class, 'index'])->name('listartikel');
 
 Route::get('/profile', [App\Http\Controllers\backend\ProfileController::class, 'index'])->name('profile');
+Route::get('/profile3', [App\Http\Controllers\backend\Profile3Controller::class, 'index'])->name('profile');
+
 Route::get('/credits', [App\Http\Controllers\backend\CreditsController::class, 'index'])->name('credits');
+Route::get('/credits3', [App\Http\Controllers\backend\Credits3Controller::class, 'index'])->name('credits');
 
 Route::post('/biodatadokter', [App\Http\Controllers\backend\BiodataDokterController::class, 'store'])->name('biodatadokter.store');
 Route::delete('/biodatadokter/{id}', [App\Http\Controllers\backend\BiodataDokterController::class, 'destroy'])->name('biodatadokter.destroy');
