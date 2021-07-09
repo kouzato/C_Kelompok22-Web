@@ -28,11 +28,11 @@
                         @foreach ($tabel_artikel as $tabel_artikel)
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="d-flex align-items-center">
-                            <img width="250px" height="200px" src="{{$tabel_artikel->foto}}"
+                            <img width="250px" height="200px" src="/img/{{$tabel_artikel->foto}}"
                             alt="">
                             <div class="ml-3">
-                              <h3><a href="youtube.com">{{ $tabel_artikel->judul}}</a></span> </h3>
-                              <p>{{ $tabel_artikel->isi}}</p>
+                              <h3><a href="post">{{ $tabel_artikel->judul}}</a></span> </h3>
+                              <p>{{ $tabel_artikel->keterangan}}</p>
                               <p class="text-muted">{{$tabel_artikel->created_at}} &middot;</p>
                             </div>
 

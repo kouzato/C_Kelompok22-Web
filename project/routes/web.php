@@ -64,3 +64,5 @@ Route::post('/listartikel', [App\Http\Controllers\backend\ArtikelController::cla
 Route::delete('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelController::class, 'destroy'])->name('listartikel.destroy');
 Route::get('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelController::class, 'edit'])->name('listartikel.edit');
 
+Route::get('/post', [App\Http\Controllers\backend\PostArtikelController::class, 'index'])->name('index');
+

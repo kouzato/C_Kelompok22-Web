@@ -70,7 +70,7 @@
                                     <td>{{$item->tanggal}}</td>
                                     <td>{{$item->keterangan}}</td>
                                     <td>{{$item->isi}}</td>
-                                    <td><img src="{{asset('img/'.$item->foto)}}" height ="10%" width ="10%"></td>
+                                    <td><img src="{{asset('img/'.$item->foto)}}" height ="10%" width ="50%"></td>
                                   </tr>
                                   <td>
                           <div class="btn-group">
