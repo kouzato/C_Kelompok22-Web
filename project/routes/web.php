@@ -70,4 +70,6 @@ Route::get('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelController:
 Route::put('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelController::class, 'update'])->name('listartikel.update');
 
 Route::get('/post', [App\Http\Controllers\backend\PostArtikelController::class, 'index'])->name('index');
-Route::get('/post3', [App\Http\Controllers\backend\PostArtikel3Controller::class, 'index'])->name('index');
+Route::get('/post3/{id}', [App\Http\Controllers\backend\PostArtikel3Controller::class, 'index']);
+
+Route::get('/listartikel',[App\Http\Controllers\backend\ArtikelController::class,'search']);

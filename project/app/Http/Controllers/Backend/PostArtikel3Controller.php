@@ -8,12 +8,13 @@ use DB;
 
 class PostArtikel3Controller extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
+        $id = $request->segment(2);
         $penulis = auth()->user()->id;
-        $tabel_artikel = DB::table('tabel_artikel', $penulis)->get();
+        $artikel = DB::table('tabel_artikel', $penulis)->where('id',$id)->first();
 
-        return view('backend.dashboardpasien.post3', compact('tabel_artikel'));
+        return view('backend.dashboardpasien.post3',compact('artikel'));
     }
     
 }

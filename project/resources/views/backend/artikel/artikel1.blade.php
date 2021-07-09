@@ -56,9 +56,11 @@
                             </div>
                             <div class="col-md-12">
                             <label>Isi</label>
+                                
                                 <div class="box-v5 panel">
                                     <div class="panel-heading padding-0 bg-white border-none">
-                                        <textarea id="isi" name="isi" placeholder="what do you think?" style="resize: none;"></textarea>
+                                        <textarea id="isi" name="isi" placeholder="what do you think?" style="resize: none;">{{ isset($tabel_artikel) ? $tabel_artikel->isi : ''}}
+                                    </textarea>
                                     </div>
                                     <div class="panel-body">
                                         <div class="sub-left-menu scroll">

@@ -20,29 +20,18 @@
                 <div class="panel-body">
                     <div class="col-md-12 padding-0" style="padding-bottom:20px;">
                         <div class="col-md-6" style="padding-left:10px;">
-                           
-                            <select>
-                                <option>Delete</option>
-                                <option>Ignore</option>
-                                <option>Cancel</option>
-                            </select>
                         </div>
                         <div class="col-md-6">
                             <div class="col-lg-12">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" aria-label="...">
-                                    <div class="input-group-btn">
-                                        <button type="button" class="btn btn-default dropdown-toggle"
-                                            data-toggle="dropdown" aria-haspopup="true"
-                                            aria-expanded="false">Search<span class="caret"></span></button>
-                                        <ul class="dropdown-menu dropdown-menu-right">
-                                            <li><a href="#">Action</a></li>
-                                            <li><a href="#">Another action</a></li>
-                                            <li><a href="#">Something else here</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li><a href="#">Separated link</a></li>
-                                        </ul>
-                                    </div><!-- /btn-group -->
+                            <form action="{{url('')}}" method="GET">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="search" placeholder="cari sini">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-primary">search</button>
+                                        </div>
+                                    </div>
+
+                                </form>
                                 </div><!-- /input-group -->
                             </div><!-- /.col-lg-6 -->
                         </div>

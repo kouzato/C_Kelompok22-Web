@@ -31,7 +31,7 @@
                             <img width="250px" height="200px" src="/img/{{$tabel_artikel->foto}}"
                             alt="">
                             <div class="ml-3">
-                              <h3><a href="post3">{{ $tabel_artikel->judul}}</a></span> </h3>
+                              <h3><a href="{{url('post3').'/'.$tabel_artikel->id}}">{{ $tabel_artikel->judul}}</a></span> </h3>
                               <p>{{ $tabel_artikel->keterangan}}</p>
                               <p class="text-muted">{{$tabel_artikel->created_at}} &middot;</p>
                             </div>

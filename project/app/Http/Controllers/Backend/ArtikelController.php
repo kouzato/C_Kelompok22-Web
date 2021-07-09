@@ -16,11 +16,17 @@ class ArtikelController extends Controller
         $listartikel = null;
         return view('backend.artikel.artikel1',compact('tabel_artikel'));
     }
+    public function search(Request $request)
+    {
+      $search = $request->get('search');
+      $listartikel= DB::table('tabel_artikel')->where('judul','LIKE','%'.$search.'%')->paginate(5);
+       return view('backend.artikel.listartikel',compact('listartikel'));
+    }
     public function store(Request $request)
     {
       $request->validate([
         "foto" => "required|mimes:jpg,jpeg,png,svg"]);
-        $foto = $request->foto->getClientOriginalName()."-".time();
+        $foto = time()."-".$request->foto->getClientOriginalName();
         $request->foto->move(public_path('/img'),$foto);
 
         DB::table('tabel_artikel')->insert([
@@ -32,16 +38,7 @@ class ArtikelController extends Controller
             'foto' =>$foto,
         ]);
 
-        DB::table('tabel_artikel')->insert([
-            'judul' => $request->judul,
-            'penulis' => $request->penulis,
-            'tanggal' => $request->tanggal,
-            'keterangan' => $request->keterangan,
-            'isi' => $request->isi,
-            'foto' =>$request->foto,
-        ]);
-
-        return redirect()->route('listartikel')
+        return redirect('listartikel')
                          ->with('success', 'Data biodata_dokter baru telah disimpan.');
     }
     public function edit($id)
@@ -53,22 +50,26 @@ class ArtikelController extends Controller
 
     public function update(Request $request)
     {
+
+      $request->validate([
+        "foto" => "required|mimes:jpg,jpeg,png,svg"]);
+        $foto = time()."-".$request->foto->getClientOriginalName();
+        $request->foto->move(public_path('/img'),$foto);
+
       DB::table('tabel_artikel')->where('id',$request->id)->update([
         'judul' => $request->judul,
         'penulis' => $request->penulis,
         'tanggal' => $request->tanggal,
         'keterangan' => $request->keterangan,
         'isi' => $request->isi,
-        'foto' =>$request->foto,
+        'foto' =>$foto,
       ]);
-      return redirect()->route('listartikel')
-                      ->with('success','Data artikel berhasil diperbaharui.');
+      return redirect('listartikel')->with('success','Data artikel berhasil diperbaharui.');
     }
 
     public function destroy($id)
     {
       DB::table('tabel_artikel')->where('id',$id)->delete();
-      return redirect()->route('listartikel')
-                      ->with('success','Data artikel berhasil dihapus.');
+      return redirect('listartikel')->with('success','Data artikel berhasil dihapus.');
     }
 }
