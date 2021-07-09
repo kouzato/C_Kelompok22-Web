@@ -138,77 +138,32 @@
                                         </div>
                                         <div class="">
                                         <img src="" class="img-responsive"/>
-
-                                        <section class="our-webcoderskull padding-lg">
-                                          <div class="container">
-                                            <div class="row heading heading-icon">
-                                                <h2>Team</h2>
+                                        <div class="portlet">
+                                          <div class="portlet-title">
+                                            <div class="caption">
+                                              <i class="glyphicon glyphicon-calendar"></i>
+                                              <span class="caption-subject text-uppercase"> Portlet</span>
+                                              <span class="caption-helper">weekly stats...</span>
                                             </div>
-                                            <ul class="row">
-                                              <li class="col-12 col-md-6 col-lg-3">
-                                                  <div class="cnt-block equal-hight" style="height: 349px;">
-                                                    <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
-                                                    <h3><a href="">M.Rahadian Nugraha</a></h3>
-                                                    <p>Jos Gak Seh</p>
-                                                    <!--<ul class="follow-us clearfix">
-                                                      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                                      <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                                    </ul>-->
-                                                  </div>
-                                              </li>
-                                              <li class="col-12 col-md-6 col-lg-3">
-                                                  <div class="cnt-block equal-hight" style="height: 349px;">
-                                                    <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
-                                                    <h3><a href="#">Nadea Ajeng </a></h3>
-                                                    <p>Manteb Gak Seh</p>
-                                                    <!--<ul class="follow-us clearfix">
-                                                      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                                      <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                                    </ul>-->
-                                                  </div>
-                                              </li>
-                                              <li class="col-12 col-md-6 col-lg-3">
-                                                  <div class="cnt-block equal-hight" style="height: 349px;">
-                                                    <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
-                                                    <h3><a href="http://www.webcoderskull.com/">Naufal Mahdi </a></h3>
-                                                    <p>Jos Gak Seh</p>
-                                                    <!--<ul class="follow-us clearfix">
-                                                      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                                      <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                                    </ul>-->
-                                                  </div>
-                                               </li>
-                                              <li class="col-12 col-md-6 col-lg-3">
-                                                  <div class="cnt-block equal-hight" style="height: 349px;">
-                                                    <figure><img src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt=""></figure>
-                                                    <h3><a href="http://www.webcoderskull.com/">Alfian Chandra</a></h3>
-                                                    <p>Skuy Gak Seh</p>
-                                                    <!--<ul class="follow-us clearfix">
-                                                      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                                      <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                                    </ul>-->
-                                                  </div>
-                                              </li>
-                                              <ul class="row">
-                                                <li class="col-12 col-md-6 col-lg-3">
-                                                    <div class="cnt-block equal-hight" style="height: 349px;">
-                                                      <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
-                                                      <h3><a href="">M.Wildan Hakim</a></h3>
-                                                      <p>Yok Gak Seh</p>
-                                                      <!--<ul class="follow-us clearfix">
-                                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                                      </ul>-->
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                            <div class="actions">
+                                              <a href="javascript:;" class="btn">
+                                                <i class="glyphicon glyphicon-pencil"></i>
+                                                Edit 
+                                              </a>
+                                              <a href="javascript:;" class="btn">
+                                                <i class="glyphicon glyphicon-paperclip"></i>
+                                                Add
+                                              </a>
+                                              <a href="javascript:;" class="btn btn-circle">
+                                                <i class="glyphicon glyphicon-resize-full"></i>
+                                              </a>
+                                            </div>
                                           </div>
-                                        </section>
+                                          <div class="portlet-body">
+                                            <h4>Heading Text</h4>
+                                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+                                          </div>
+                                        </div>
 
                                         </div>
                                     </div>

@@ -69,4 +69,4 @@ Route::delete('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelControll
 Route::get('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelController::class, 'edit'])->name('listartikel.edit');
 
 Route::get('/post', [App\Http\Controllers\backend\PostArtikelController::class, 'index'])->name('index');
-
+Route::get('/post3', [App\Http\Controllers\backend\PostArtikel3Controller::class, 'index'])->name('index');
