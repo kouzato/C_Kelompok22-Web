@@ -21,18 +21,20 @@
                         <h4>Tulis Artikel</h4>
                     </div>
                     <div class="panel-body" style="padding-bottom:30px;">
-                        <form class="cmxform" id="signupForm" method="POST" action="{{ route('listartikel.store') }}" enctype="multipart/form-data">
+                        <form class="cmxform" id="signupForm" method="POST" action="{{ isset($tabel_artikel) ? route('listartikel.update',$tabel_artikel->id) : route('listartikel.store') }}" enctype="multipart/form-data">
                             <div class="col-md-6">
-                            @csrf
+                                {!! csrf_field() !!}
+                                {!! isset($tabel_artikel) ? method_field('PUT') : '' !!}
+                                <input type="hidden" name="id" value="{{ isset($tabel_artikel) ? $tabel_artikel->id : ''}}">
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
                                     <input type="text" class="form-text" id="judul" name="judul"
-                                        required>
+                                        required value="{{ isset($tabel_artikel) ? $tabel_artikel->judul : ''}}">
                                     <span class="bar"></span>
                                     <label>Judul</label>
                                 </div>
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
                                     <input type="text" class="form-text" id="penulis" name="penulis"
-                                        required>
+                                        required value="{{ isset($tabel_artikel) ? $tabel_artikel->penulis : ''}}">
                                     <span class="bar"></span>
                                     <label>Penulis</label>
                                 </div>
@@ -40,14 +42,14 @@
                             <div class="col-md-6">
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
                                     <input type="date" class="form-text" id="tanggal" name="tanggal"
-                                        required>
+                                        required value="{{ isset($tabel_artikel) ? $tabel_artikel->tanggal : ''}}">
                                     <span class="bar"></span>
                                     <label>Tanggal</label>
                                 </div>
 
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
                                     <input type="text" class="form-text" id="keterangan"
-                                        name="keterangan" required>
+                                        name="keterangan" required value="{{ isset($tabel_artikel) ? $tabel_artikel->keterangan : ''}}">
                                     <span class="bar"></span>
                                     <label>Keterangan</label>
                                 </div>

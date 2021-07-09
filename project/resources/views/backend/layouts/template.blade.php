@@ -10,25 +10,25 @@
     <title>Animal Vatcare</title>
 
     <!-- start: Css -->
-    <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('asset/css/bootstrap.min.css')}}">
 
       <!-- plugins -->
 
-  <link rel="stylesheet" type="text/css" href="asset/css/plugins/animate.min.css"/>
-  <link rel="stylesheet" type="text/css" href="asset/css/plugins/nouislider.min.css"/>
-  <link rel="stylesheet" type="text/css" href="asset/css/plugins/select2.min.css"/>
-  <link rel="stylesheet" type="text/css" href="asset/css/plugins/ionrangeslider/ion.rangeSlider.css"/>
-  <link rel="stylesheet" type="text/css" href="asset/css/plugins/ionrangeslider/ion.rangeSlider.skinFlat.css"/>
-  <link rel="stylesheet" type="text/css" href="asset/css/plugins/bootstrap-material-datetimepicker.css"/>
-      <link rel="stylesheet" type="text/css" href="asset/css/plugins/font-awesome.min.css"/>
-      <link rel="stylesheet" type="text/css" href="asset/css/plugins/simple-line-icons.css"/>
-      <link rel="stylesheet" type="text/css" href="asset/css/plugins/animate.min.css"/>
-      <link rel="stylesheet" type="text/css" href="asset/css/plugins/fullcalendar.min.css"/>
-	<link href="asset/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="asset/css/plugins/dropzone.css"/>
+  <link rel="stylesheet" type="text/css" href="{{ asset('asset/css/plugins/animate.min.css')}}"/>
+  <link rel="stylesheet" type="text/css" href="{{ asset('asset/css/plugins/nouislider.min.css')}}"/>
+  <link rel="stylesheet" type="text/css" href="{{ asset('asset/css/plugins/select2.min.css')}}"/>
+  <link rel="stylesheet" type="text/css" href="{{ asset('asset/css/plugins/ionrangeslider/ion.rangeSlider.css')}}"/>
+  <link rel="stylesheet" type="text/css" href="{{ asset('asset/css/plugins/ionrangeslider/ion.rangeSlider.skinFlat.css')}}"/>
+  <link rel="stylesheet" type="text/css" href="{{ asset('asset/css/plugins/bootstrap-material-datetimepicker.css')}}"/>
+      <link rel="stylesheet" type="text/css" href="{{ asset('asset/css/plugins/font-awesome.min.css')}}"/>
+      <link rel="stylesheet" type="text/css" href="{{ asset('asset/css/plugins/simple-line-icons.css')}}"/>
+      <link rel="stylesheet" type="text/css" href="{{ asset('asset/css/plugins/animate.min.css')}}"/>
+      <link rel="stylesheet" type="text/css" href="{{ asset('asset/css/plugins/fullcalendar.min.css')}}"/>
+	<link href="{{ asset('asset/css/style.css')}}" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{ asset('asset/css/plugins/dropzone.css')}}"/>
 	<!-- end: Css -->
 
-	<link rel="shortcut icon" href="asset/img/logomi.png">
+	<link rel="shortcut icon" href="{{ asset('asset/img/logomi.png')}}">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -52,35 +52,35 @@
 
 
     <!-- start: Javascript -->
-    <script src="asset/js/jquery.min.js"></script>
-    <script src="asset/js/jquery.ui.min.js"></script>
-    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="{{ asset('asset/js/jquery.min.js')}}"></script>
+    <script src="{{ asset('asset/js/jquery.ui.min.js')}}"></script>
+    <script src="{{ asset('asset/js/bootstrap.min.js')}}"></script>
 
 
     <!-- plugins -->
-    <script src="asset/js/plugins/moment.min.js"></script>
-    <script src="asset/js/plugins/fullcalendar.min.js"></script>
-    <script src="asset/js/plugins/jquery.nicescroll.js"></script>
-    <script src="asset/js/plugins/jquery.vmap.min.js"></script>
-    <script src="asset/js/plugins/maps/jquery.vmap.world.js"></script>
-    <script src="asset/js/plugins/jquery.vmap.sampledata.js"></script>
-    <script src="asset/js/plugins/chart.min.js"></script>
-<script src="asset/js/plugins/jquery.knob.js"></script>
-<script src="asset/js/plugins/ion.rangeSlider.min.js"></script>
-<script src="asset/js/plugins/bootstrap-material-datetimepicker.js"></script>
-<script src="asset/js/plugins/jquery.mask.min.js"></script>
-<script src="asset/js/plugins/select2.full.min.js"></script>
-<script src="asset/js/plugins/nouislider.min.js"></script>
-<script src="asset/js/plugins/jquery.validate.min.js"></script>
-<script src="asset/js/plugins/mediaelement-and-player.min.js"></script>
-<script src="asset/js/plugins/dropzone.js"></script>
+    <script src="{{ asset('asset/js/plugins/moment.min.js')}}"></script>
+    <script src="{{ asset('asset/js/plugins/fullcalendar.min.js')}}"></script>
+    <script src="{{ asset('asset/js/plugins/jquery.nicescroll.js')}}"></script>
+    <script src="{{ asset('asset/js/plugins/jquery.vmap.min.js')}}"></script>
+    <script src="{{ asset('asset/js/plugins/maps/jquery.vmap.world.js')}}"></script>
+    <script src="{{ asset('asset/js/plugins/jquery.vmap.sampledata.js')}}"></script>
+    <script src="{{ asset('asset/js/plugins/chart.min.js')}}"></script>
+<script src="{{ asset('asset/js/plugins/jquery.knob.js')}}"></script>
+<script src="{{ asset('asset/js/plugins/ion.rangeSlider.min.js')}}"></script>
+<script src="{{ asset('asset/js/plugins/bootstrap-material-datetimepicker.js')}}"></script>
+<script src="{{ asset('asset/js/plugins/jquery.mask.min.js')}}"></script>
+<script src="{{ asset('asset/js/plugins/select2.full.min.js')}}"></script>
+<script src="{{ asset('asset/js/plugins/nouislider.min.js')}}"></script>
+<script src="{{ asset('asset/js/plugins/jquery.validate.min.js')}}"></script>
+<script src="{{ asset('asset/js/plugins/mediaelement-and-player.min.js')}}"></script>
+<script src="{{ asset('asset/js/plugins/dropzone.js')}}"></script>
 
 
 
 
 
     <!-- custom -->
-     <script src="asset/js/main.js"></script>
+     <script src="{{ asset('asset/js/main.js')}}"></script>
      <script type="text/javascript">
       $(document).ready(function(){
    $('input').iCheck({

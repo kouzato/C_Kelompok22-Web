@@ -67,6 +67,7 @@ Route::get('/biodatadokter/{id}', [App\Http\Controllers\backend\BiodataDokterCon
 Route::post('/listartikel', [App\Http\Controllers\backend\ArtikelController::class, 'store'])->name('listartikel.store');
 Route::delete('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelController::class, 'destroy'])->name('listartikel.destroy');
 Route::get('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelController::class, 'edit'])->name('listartikel.edit');
+Route::put('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelController::class, 'update'])->name('listartikel.update');
 
 Route::get('/post', [App\Http\Controllers\backend\PostArtikelController::class, 'index'])->name('index');
 Route::get('/post3', [App\Http\Controllers\backend\PostArtikel3Controller::class, 'index'])->name('index');

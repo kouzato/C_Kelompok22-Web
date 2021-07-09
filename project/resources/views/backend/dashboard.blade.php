@@ -141,9 +141,6 @@
                                         <div class="portlet">
                                           <div class="portlet-title">
                                             <div class="caption">
-                                              <i class="glyphicon glyphicon-calendar"></i>
-                                              <span class="caption-subject text-uppercase"> Portlet</span>
-                                              <span class="caption-helper">weekly stats...</span>
                                             </div>
                                             <div class="actions">
                                               <a href="javascript:;" class="btn">

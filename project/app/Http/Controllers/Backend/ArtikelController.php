@@ -61,7 +61,7 @@ class ArtikelController extends Controller
         'isi' => $request->isi,
         'foto' =>$request->foto,
       ]);
-      return redirect()->route('artikel1')
+      return redirect()->route('listartikel')
                       ->with('success','Data artikel berhasil diperbaharui.');
     }
 
