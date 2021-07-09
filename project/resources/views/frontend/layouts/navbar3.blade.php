@@ -35,8 +35,7 @@
                      <li role="separator" class="divider"></li>
                      <li class="more">
                       <ul>
-                        <li><a href=""><span class="fa fa-cogs"></span></a></li>
-                        <li><a href=""><span class="fa fa-lock"></span></a></li>
+                        
                         <li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><span class="fa fa-power-off "></span></a>
                             <form id="logout-form" action="{{ route('logout') }}" method="post" style="display: none;">
                                 @csrf
@@ -45,7 +44,7 @@
                     </li>
                   </ul>
                 </li>
-                <li ><a href="#" class="opener-right-menu"><span class="fa fa-coffee"></span></a></li>
+                <li ><a href="#" class=><span class=></span></a></li>
               </ul>
             </div>
           </div>

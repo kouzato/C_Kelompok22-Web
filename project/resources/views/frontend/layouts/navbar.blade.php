@@ -45,7 +45,7 @@
                     </li>
                   </ul>
                 </li>
-                <li ><a href="#" class="opener-right-menu"><span class="fa fa-coffee"></span></a></li>
+                <li ><a href="" class=><span class=></span></a></li>
               </ul>
             </div>
           </div>
