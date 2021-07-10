@@ -76,3 +76,6 @@ Route::get('/post3/{id}', [App\Http\Controllers\backend\PostArtikel3Controller::
 
 Route::get('/listartikel',[App\Http\Controllers\backend\ArtikelController::class,'search']);
 Route::get('/listdokter',[App\Http\Controllers\backend\BiodataDokterController::class,'search']);
+Route::get('/dashboard2',[App\Http\Controllers\backend\DashboardPasienController::class,'search']);
+Route::get('/dashboard3',[App\Http\Controllers\backend\Dashboard3Controller::class,'search']);
+Route::get('/listdokter2',[App\Http\Controllers\backend\DashboardListDokterController::class,'search']);

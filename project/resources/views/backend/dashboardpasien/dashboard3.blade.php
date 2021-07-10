@@ -24,6 +24,25 @@
                     <div class="card">
                       <div class="card-body">
                         <h2 > ARTIKEL </h2>
+                        <br><div class="col-md-6">
+                          <div class="col-lg-12">
+                              <form action="{{url('dashboard3')}}" method="GET">
+                                  <div class="input-group">
+                                      <input type="text" class="form-control" name="search" placeholder="cari sini">
+                                      <div class="input-group-btn">
+                                          <button type="submit" class="btn btn-primary">search</button>
+                                      </div>
+                                  </div>
+
+                              </form>
+                              
+                                      
+
+                          </div><!-- /.col-lg-6 -->
+                      </div>
+                        <br>
+                        <br>
+                        <br>  
 
                         @foreach ($tabel_artikel as $tabel_artikel)
                         <div class="d-flex justify-content-between align-items-center">

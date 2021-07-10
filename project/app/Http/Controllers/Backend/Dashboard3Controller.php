@@ -15,6 +15,12 @@ class Dashboard3Controller extends Controller
 
         return view('backend/dashboardpasien.dashboard3', compact('tabel_artikel'));
     }
+    public function search(Request $request)
+    {
+      $search = $request->get('search');
+      $tabel_artikel= DB::table('tabel_artikel')->where('judul','LIKE','%'.$search.'%')->paginate(5);
+       return view('backend.dashboardpasien.dashboard3',compact('tabel_artikel'));
+    }
 
 }
 

@@ -23,11 +23,11 @@
                         </div>
                         <div class="col-md-6">
                             <div class="col-lg-12">
-                            <form action="{{url('')}}" method="GET">
+                            <form action="{{url('listdokter2')}}" method="GET">
                                     <div class="input-group">
-                                        
-                                        <div class="input-group-append">
-                                            
+                                        <input type="text" class="form-control" name="search" placeholder="cari sini">
+                                        <div class="input-group-btn">
+                                            <button type="submit" class="btn btn-primary">search</button>
                                         </div>
                                     </div>
 
