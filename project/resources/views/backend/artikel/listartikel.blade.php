@@ -25,7 +25,7 @@
                                 <form action="{{url('listartikel')}}" method="GET">
                                     <div class="input-group">
                                         <input type="text" class="form-control" name="search" placeholder="cari sini">
-                                        <div class="input-group-append">
+                                        <div class="input-group-btn">
                                             <button type="submit" class="btn btn-primary">search</button>
                                         </div>
                                     </div>

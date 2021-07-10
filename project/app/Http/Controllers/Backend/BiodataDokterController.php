@@ -17,6 +17,12 @@ class BiodataDokterController extends Controller
         $biodata_dokter = null;
         return view('backend.biodatadokter.biodatadokter',compact('biodata_dokter'));
     }
+    public function search(Request $request)
+    {
+      $search = $request->get('search');
+      $biodatadokter= DB::table('biodata_dokter')->where('nama_dokter','LIKE','%'.$search.'%')->paginate(5);
+       return view('backend.biodatadokter.listdokter',compact('biodatadokter'));
+    }
     public function store(Request $request)
     {
         DB::table('biodata_dokter')->insert([

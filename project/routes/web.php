@@ -75,3 +75,4 @@ Route::get('/post/{id}', [App\Http\Controllers\backend\PostArtikelController::cl
 Route::get('/post3/{id}', [App\Http\Controllers\backend\PostArtikel3Controller::class, 'index']);
 
 Route::get('/listartikel',[App\Http\Controllers\backend\ArtikelController::class,'search']);
+Route::get('/listdokter',[App\Http\Controllers\backend\BiodataDokterController::class,'search']);
