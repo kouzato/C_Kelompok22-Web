@@ -48,6 +48,7 @@ route::get('/error',function (){
 Route::resource('dashboardpasien', 'DashboardPasienController');
 Route::get('/dashboard2', [App\Http\Controllers\backend\DashboardPasienController::class, 'index'])->name('index');
 Route::get('/dashboard3', [App\Http\Controllers\backend\Dashboard3Controller::class, 'index'])->name('index');
+Route::get('/listdokter2', [App\Http\Controllers\backend\DashboardListDokterController::class, 'index'])->name('index');
 
 Route::get('/artikel', [App\Http\Controllers\backend\ArtikelController::class, 'index'])->name('artikel');
 Route::get('/biodatadokter', [App\Http\Controllers\backend\BiodataDokterController::class, 'index'])->name('biodatadokter');
@@ -70,7 +71,7 @@ Route::delete('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelControll
 Route::get('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelController::class, 'edit'])->name('listartikel.edit');
 Route::put('/listartikel/{id}', [App\Http\Controllers\backend\ArtikelController::class, 'update'])->name('listartikel.update');
 
-Route::get('/post', [App\Http\Controllers\backend\PostArtikelController::class, 'index'])->name('index');
+Route::get('/post/{id}', [App\Http\Controllers\backend\PostArtikelController::class, 'index'])->name('index');
 Route::get('/post3/{id}', [App\Http\Controllers\backend\PostArtikel3Controller::class, 'index']);
 
 Route::get('/listartikel',[App\Http\Controllers\backend\ArtikelController::class,'search']);

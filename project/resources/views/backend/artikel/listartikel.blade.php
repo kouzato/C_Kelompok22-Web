@@ -65,7 +65,7 @@
                                   </tr>
                                   <td>
                           <div class="btn-group">
-                            <form action="{{ url('listartikel.destroy',$item->id)}}" method="POST">
+                            <form action="{{ route('listartikel.destroy',$item->id)}}" method="POST">
                                         <a href=" {{ route('listartikel.edit',$item->id) }} "
                                             class="btn btn-warning"><i class="fa fa-edit"></i></a>
                                         @csrf

@@ -15,6 +15,7 @@
                 </a>
                 <ul class="nav nav-list tree">
                     <li><a href="dashboard3">Dashboard Pengguna</a></li>
+                    <li><a href="listdokter2">List Dokter</a></li>
                 </ul>
             </li>
 
