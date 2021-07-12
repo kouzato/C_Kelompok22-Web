@@ -56,7 +56,7 @@
                             </div>
                             <div class="col-md-12">
                             <label>Isi</label>
-                                
+
                                 <div class="box-v5 panel">
                                     <div class="panel-heading padding-0 bg-white border-none">
                                         <textarea id="isi" name="isi" placeholder="what do you think?" style="resize: none;">{{ isset($tabel_artikel) ? $tabel_artikel->isi : ''}}
@@ -77,7 +77,7 @@
                                                                     class="fileupload-v1-file hidden" />
                                                                 <input type="text"
                                                                     class="form-control fileupload-v1-path"
-                                                                    placeholder="File Path..." enable>
+                                                                    placeholder="File Path..." disabled>
                                                                 <span class="input-group-btn">
                                                                     <button class="btn fileupload-v1-btn"
                                                                         type="button"><i class="fa fa-folder"></i>
