@@ -22,7 +22,7 @@
              <li class="ripple"><a class="tree-toggle nav-header"><span class="fa-diamond fa"></span> Option <span
                          class="fa-angle-right fa right-arrow text-right"></span> </a>
                  <ul class="nav nav-list tree">
-                     <li><a href="profile">Profile</a></li>
+                     <li><a href="profile">List Keluhan</a></li>
                      <li><a href="listdokter">List Dokter</a></li>
                      <li><a href="listartikel">List Artikel</a></li>
                  </ul>

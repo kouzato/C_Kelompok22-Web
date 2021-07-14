@@ -56,6 +56,11 @@ Route::get('/listdokter', [App\Http\Controllers\backend\ListdokterController::cl
 Route::get('/listartikel', [App\Http\Controllers\backend\ListArtikelController::class, 'index'])->name('listartikel');
 
 Route::get('/profile', [App\Http\Controllers\backend\ProfileController::class, 'index'])->name('profile');
+
+Route::post('/profile3', [App\Http\Controllers\backend\Profile3Controller::class, 'store'])->name('keluhan.store');
+Route::delete('/profile3/{id}', [App\Http\Controllers\backend\Profile3Controller::class, 'destroy'])->name('keluhan.destroy');
+Route::get('/profile3/{id}', [App\Http\Controllers\backend\Profile3Controller::class, 'edit'])->name('keluhan.edit');
+Route::put('/profile3/{id}', [App\Http\Controllers\backend\Profile3Controller::class, 'update'])->name('keluhan.update');
 Route::get('/profile3', [App\Http\Controllers\backend\Profile3Controller::class, 'index'])->name('profile');
 
 Route::get('/credits', [App\Http\Controllers\backend\CreditsController::class, 'index'])->name('credits');
