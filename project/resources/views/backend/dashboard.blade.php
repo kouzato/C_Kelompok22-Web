@@ -143,22 +143,23 @@
                                             <div class="caption">
                                             </div>
                                             <div class="actions">
-                                              <a href="javascript:;" class="btn">
-                                                <i class="glyphicon glyphicon-pencil"></i>
-                                                Edit 
-                                              </a>
-                                              <a href="javascript:;" class="btn">
-                                                <i class="glyphicon glyphicon-paperclip"></i>
-                                                Add
-                                              </a>
-                                              <a href="javascript:;" class="btn btn-circle">
-                                                <i class="glyphicon glyphicon-resize-full"></i>
-                                              </a>
+                                              
                                             </div>
                                           </div>
                                           <div class="portlet-body">
-                                            <h4>Heading Text</h4>
-                                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+                                            <h4>Veterinary Care</h4>
+                                            <p>Perkembangan kemajuan teknologi menjadi salah satu alasan utama kami untuk menjadikan
+                        VeterinaryCare sebagai satu-satunya website resmi kami dalam melayani setiap customer secara
+                        online
+                        Di dalam pelayanan, kami selalu berusaha untuk bisa melayani kebutuhan anda dalam memenuhi
+                        segala macam kebutuhan yang anda perlukan untuk hewan peliharaan anda. Kami juga selalu siap
+                        memberikan informasi secara maksimal serta selalu menyediakan produk-produk yang terbaik di
+                        setiap kelasnya dengan aneka macam pilihan varian.
+                        Visi utama kami adalah untuk bisa mejadi pilihan utama anda dalam memenuhi segala macam
+                        kebutuhan hewan peliharaan anda, baik itu untuk perseorangan, ataupun lembaga swasta atau
+                        negeri.
+                        Besar harapan kami kedepan yaitu untuk dapat terus maju dan berkembang dalam melayani kebutuhan
+                        peliharaan anda agar tetap sehat dan terawat dengan baik.</p>
                                           </div>
                                         </div>
 

@@ -52,14 +52,14 @@
                                     <input type="password" class="form-text" id="password_dokter"
                                         name="password_dokter" required value="{{ isset($biodata_dokter) ? $biodata_dokter->password_dokter : ''}}">
                                     <span class="bar"></span>
-                                    <label>Password Dokter</label>
+                                    <label>No. Telepon</label>
                                 </div>
 
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
                                     <input type="password" class="form-text" id="confirm_password_dokter"
                                         name="confirm_password_dokter" required value="{{ isset($biodata_dokter) ? $biodata_dokter->confirm_password_dokter : ''}}">
                                     <span class="bar"></span>
-                                    <label>Confirm Password Dokter</label>
+                                    <label>Spesialis</label>
                                 </div>
 
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">

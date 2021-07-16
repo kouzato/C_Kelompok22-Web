@@ -45,8 +45,8 @@
                                     <th>Nama</th>
                                     <th>Alamat</th>
                                     <th>Username Dokter</th>
-                                    <th>Password</th>
-                                    <th>Confirm Password</th>
+                                    <th>No. Telepon</th>
+                                    <th>Spesialis</th>
                                     <th>Email Dokter</th>
                                 </tr>
 
