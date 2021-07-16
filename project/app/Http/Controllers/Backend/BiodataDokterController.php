@@ -34,7 +34,7 @@ class BiodataDokterController extends Controller
             'email_dokter' => $request->email_dokter,
         ]);
 
-        return redirect()->route('listdokter')
+        return redirect('listdokter')
                          ->with('success', 'Data biodata_dokter baru telah disimpan.');
     }
     public function edit($id)
@@ -54,14 +54,14 @@ class BiodataDokterController extends Controller
         'confirm_password_dokter' => $request->confirm_password_dokter,
         'email_dokter' => $request->email_dokter,
       ]);
-      return redirect()->route('listdokter')
+      return redirect('listdokter')
                       ->with('success','Data Dokter berhasil diperbaharui.');
     }
 
     public function destroy($id)
     {
       DB::table('biodata_dokter')->where('id',$id)->delete();
-      return redirect()->route('listdokter')
+      return redirect('listdokter')
                       ->with('success','Data Dokter berhasil dihapus.');
     }
 }

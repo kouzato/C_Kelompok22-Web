@@ -14,21 +14,21 @@
                     <span class="fa-angle-right fa right-arrow text-right"></span>
                 </a>
                 <ul class="nav nav-list tree">
-                    <li><a href="dashboard3">Dashboard Pengguna</a></li>
-                    <li><a href="listdokter2">List Dokter</a></li>
+                    <li><a href="{{url('dashboard3')}}">Dashboard Pengguna</a></li>
+                    <li><a href="{{url('listdokter2')}}">List Dokter</a></li>
                 </ul>
             </li>
 
             <li class="ripple"><a class="tree-toggle nav-header"><span class="fa-diamond fa"></span> Option <span
                         class="fa-angle-right fa right-arrow text-right"></span> </a>
                 <ul class="nav nav-list tree">
-                    <li><a href="profile3">Keluhan</a></li>
+                    <li><a href="{{url('profile3')}}">Keluhan</a></li>
                 </ul>
             </li>
             
                 </ul>
             </li>
-            <li><a href="credits3">Tentang Kami</a></li>
+            <li><a href="{{url('credits3')}}">Tentang Kami</a></li>
         </ul>
     </div>
 </div>
