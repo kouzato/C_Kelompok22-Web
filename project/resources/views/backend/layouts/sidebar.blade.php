@@ -14,17 +14,17 @@
                      <span class="fa-angle-right fa right-arrow text-right"></span>
                  </a>
                  <ul class="nav nav-list tree">
-                     <li><a href="dashboard">Dashboard Utama</a></li>
-                     <li><a href="dashboard2">Dashboard Pengguna</a></li>
+                     <li><a href="{{ asset('dashboard')}}">Dashboard Utama</a></li>
+                     <li><a href="{{ asset('dashboard2')}}">Dashboard Pengguna</a></li>
                  </ul>
              </li>
 
              <li class="ripple"><a class="tree-toggle nav-header"><span class="fa-diamond fa"></span> Option <span
                          class="fa-angle-right fa right-arrow text-right"></span> </a>
                  <ul class="nav nav-list tree">
-                     <li><a href="profile">List Keluhan</a></li>
-                     <li><a href="listdokter">List Dokter</a></li>
-                     <li><a href="listartikel">List Artikel</a></li>
+                     <li><a href="{{ asset('profile')}}">List Keluhan</a></li>
+                     <li><a href="{{ asset('listdokter')}}">List Dokter</a></li>
+                     <li><a href="{{ asset('listartikel')}}">List Artikel</a></li>
                  </ul>
              </li>
              <li class="ripple">
@@ -33,13 +33,13 @@
                      <span class="fa-angle-right fa right-arrow text-right"></span>
                  </a>
                  <ul class="nav nav-list tree">
-                     <li><a href="artikel">Form Artikel</a></li>
+                     <li><a href="{{ asset('artikel')}}">Form Artikel</a></li>
                  </ul>
                  <ul class="nav nav-list tree">
-                     <li><a href="biodatadokter">Biodata Dokter</a></li>
+                     <li><a href="{{ asset('biodatadokter')}}">Biodata Dokter</a></li>
                  </ul>
              </li>
-             <li><a href="credits">Tentang Kami</a></li>
+             <li><a href="{{ asset('credits')}}">Tentang Kami</a></li>
          </ul>
      </div>
  </div>

@@ -49,14 +49,14 @@
 
                             <div class="col-md-6">
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="password" class="form-text" id="password_dokter"
+                                    <input type="text" class="form-text" id="password_dokter"
                                         name="password_dokter" required value="{{ isset($biodata_dokter) ? $biodata_dokter->password_dokter : ''}}">
                                     <span class="bar"></span>
                                     <label>No. Telepon</label>
                                 </div>
 
                                 <div class="form-group form-animate-text" style="margin-top:40px !important;">
-                                    <input type="password" class="form-text" id="confirm_password_dokter"
+                                    <input type="text" class="form-text" id="confirm_password_dokter"
                                         name="confirm_password_dokter" required value="{{ isset($biodata_dokter) ? $biodata_dokter->confirm_password_dokter : ''}}">
                                     <span class="bar"></span>
                                     <label>Spesialis</label>
