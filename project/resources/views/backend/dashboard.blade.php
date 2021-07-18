@@ -146,6 +146,10 @@
                                               
                                             </div>
                                           </div>
+
+                                          
+                                                <div class="panel-body">
+                                                    <div class="col-md-12">
                                           <div class="portlet-body">
                                             <h4>Veterinary Care</h4>
                                             <p>Perkembangan kemajuan teknologi menjadi salah satu alasan utama kami untuk menjadikan
@@ -168,12 +172,8 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="col-md-4">
-                            <div class="col-md-12 padding-0">
                               <div class="panel box-v2">
                                   <div class="panel-heading padding-0">
-
                                      <img src="asset/img/maps.jpg" class="box-v2-cover img-responsive"/> 
 <!--
                                     <div class="box-v2-detail">
@@ -404,7 +404,7 @@
       		  </div>
             -->
           <!-- end: content -->
-
+          <div id="content">
           <div class="social-box">
             <div class="container">
                <div class="columns">
@@ -412,7 +412,7 @@
                 
                  <div class="col-lg-4 col-xs-12 text-center">
                   <div class="box">
-                      <i class="fa fa-google-plus fa-3x" aria-hidden="true"></i>
+                      <i class="" aria-hidden="true"></i>
                     <div class="box-title">
                       <h3>Google Maps</h3>
                     </div>

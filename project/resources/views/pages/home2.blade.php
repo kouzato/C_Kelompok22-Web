@@ -155,25 +155,7 @@
     		</div>
     	</div>
     </div>
-    <div class="gallery_section_2">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-sm-8">
-    				<h1 class="pet_taital">Pet adoption be part of something beautiful</h1>
-    				<p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
-    			<div class="banner_bt">
-					<button class="dog_bt">Read More</button>
-				</div>
-				<div class="box_3">
-					<h1 class="numbar">03</h1>
-				</div>
-    			</div>
-    			<div class="col-sm-4">
-    				<div class="dog_img"><img src="asset2/images/dog-img.png" style="max-width: 100%;"></div>
-    			</div>
-    		</div>
-    	</div>
-    </div>
+    
 	<!-- section gallery end -->
 	
 
@@ -182,49 +164,19 @@
     	<div class="container">
     		<div class="mail_section">
     			<ul>
-    				<li class="footer-logo"><img src="asset2/images/footer-logo.png"></li>
-    				<li class="footer-logo"><img src="asset2/images/map-icon.png"><span class="map_text">Gb road 123 london Uk</span></li>
-    				<li class="footer-logo"><img src="asset2/images/call-icon.png"><span class="map_text">(+71) 9876543210</span></li>
-    				<li class="footer-logo"><img src="asset2/images/email-icon.png"><span class="map_text">Demo@gmail.com</span></li>
+    				<li class="footer-logo"><img src=""></li>
+    				<li class="footer-logo"><img src="asset2/images/map-icon.png"><span class="map_text">Jember, Jawa Timur</span></li>
+    				<li class="footer-logo"><img src="asset2/images/call-icon.png"><span class="map_text">(+62) 81234567890</span></li>
+    				<li class="footer-logo"><img src="asset2/images/email-icon.png"><span class="map_text">Veterinarycare@gmail.com</span></li>
     			</ul>
     	    </div>
     	    <div class="footer_section_2">
 		        <div class="row">
     		        <div class="col-sm-6 col-md-6 col-lg-3">
-    		        	<h2 class="shop_text">About Pet Shop</h2>
-    		        	<p class="dummy_text">Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and </p>
+    		        	<h2 class="shop_text">Tentang Veterinarycare</h2>
+    		        	<p class="dummy_text">Veterinarycare Merupakan Website Tentang Konsultasi Terhadap Peliharaan Anda Dengan Praktis </p>
     		        </div>
-    		        <div class="col-sm-6 col-md-6 col-lg-3">
-    		        	<h2 class="shop_text">Useful Links</h2>
-    		        	<div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Pet Dictionary</span></div>
-    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Help Links</span></div>
-    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Pet Attitudes</span></div>
-    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Call a Doctor</span></div>
-    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Help a Pet</span></div>
-    		        </div>
-    		        <div class="col-sm-6 col-md-6 col-lg-3">
-    				    <h2 class="shop_text">Overview</h2>
-    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Bacerim Dictionary</span></div>
-    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">Help Links</span></div>
-    				    <div class="image-icon"><img src="asset2/images/bulit-icon.png"><span class="pet_text">bacerim Attitudes</span></div>
-    		        </div>
-    			<div class="col-sm-6 col-md-6 col-lg-3">
-    				<h2 class="adderess_text">Instagram</h2>
-    				<div class="footer-img">
-    					<div class="row">
-    						<div class="col-sm-6">
-    							<div class="footer-img"><img src="asset2/images/footer-img1.png" style="width: 100%;"></div>
-    							<div class="footer-img"><img src="asset2/images/footer-img2.png" style="width: 100%;"></div>
-    						</div>
-    						<div class="col-sm-6">
-    							<div class="footer-img"><img src="asset2/images/footer-img3.png" style="width: 100%;"></div>
-    							<div class="footer-img"><img src="asset2/images/footer-img4.png" style="width: 100%;"></div>
-    						</div>
-    					</div>
-    				</div>
-    			</div>
-    			</div>
-    	        </div>
+    			
     	        <div class="social-icon">
 	        	    <div class="row">
 	        		    <div class="col-sm-12">
@@ -239,7 +191,7 @@
 	        		    </div>
 	        	    </div>
 	            </div>
-	            <div class="copyright">2019 All Rights Reserved. <a href="https://html.design">Free html Templates</a></div>
+	            <div class="copyright">2021 All Rights Reserved. <a href="https://html.design">Veterinarycare</a></div>
 	        </div>
     	</div>
     </div>

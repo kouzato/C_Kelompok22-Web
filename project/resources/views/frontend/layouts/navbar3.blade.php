@@ -15,11 +15,11 @@
               <ul class="nav navbar-nav search-nav">
                 <li>
                    <div class="search">
-                    <span class="fa fa-search icon-search" style="font-size:23px;"></span>
+                    <span class="" style="font-size:23px;"></span>
                     <div class="form-group form-animate-text">
-                      <input type="text" class="form-text" required>
+                      
                       <span class="bar"></span>
-                      <label class="label-search">Silahkan Cari <b>Search</b> </label>
+                      
                     </div>
                   </div>
                 </li>

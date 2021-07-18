@@ -48,7 +48,7 @@
                                 <td>
                         <div class="btn-group">
                           <form action="{{ route('keluhan.destroy',$item->id)}}" method="POST">
-                                      <a href=" {{ route('keluhan.edit',$item->id) }} "
+                                      <a href="https://mail.google.com"
                                           class="btn btn-warning"><i class="fa fa-edit"></i></a>
                                       @csrf
                                       @method('DELETE')

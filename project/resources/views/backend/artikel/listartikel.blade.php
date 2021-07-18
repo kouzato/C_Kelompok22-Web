@@ -85,13 +85,8 @@
                 <div class="col-md-6" style="padding-top:20px;">
                     <span></span>
                 </div>
-                <div class="col-md-6">
-                    <ul class="pagination pull-right">
-                        <li>
-                            <a href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                            </a>
-                        </li>
+
+                        
                        <!-- <li class="active"><a href="#">1</a></li>
                         <li><a href="#">2</a></li>
                         <li><a href="#">3</a></li>
