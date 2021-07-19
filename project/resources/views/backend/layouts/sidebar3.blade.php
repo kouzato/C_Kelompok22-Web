@@ -16,6 +16,7 @@
                 <ul class="nav nav-list tree">
                     <li><a href="{{url('dashboard3')}}">Dashboard Pengguna</a></li>
                     <li><a href="{{url('listdokter2')}}">List Dokter</a></li>
+                    <li><a href="{{url('lokasi')}}">Lokasi</a></li>
                 </ul>
             </li>
 

@@ -11,7 +11,7 @@
                         <p class="animated fadeInDown"><span class="fa  fa-map-marker"></span> Jember,Indonesia</p>
 
                         <!--<h1 class="jumbotron-heading">Veterinarycare</h1> -->
-                        <p class="lead text-muted mb-0">kami selalu berusaha untuk bisa melayani kebutuhan anda dalam memenuhi
+                        <p class="lead text-muted mb-0">Kami selalu berusaha untuk bisa melayani kebutuhan anda dalam memenuhi
                           segala macam kebutuhan yang anda perlukan untuk hewan peliharaan anda. Kami juga selalu siap
                           memberikan informasi secara maksimal serta selalu menyediakan produk-produk yang terbaik di
                           setiap kelasnya dengan aneka macam pilihan varian.</p>

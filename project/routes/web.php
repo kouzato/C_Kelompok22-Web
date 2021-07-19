@@ -49,6 +49,7 @@ Route::resource('dashboardpasien', 'DashboardPasienController');
 Route::get('/dashboard2', [App\Http\Controllers\backend\DashboardPasienController::class, 'index'])->name('index');
 Route::get('/dashboard3', [App\Http\Controllers\backend\Dashboard3Controller::class, 'index'])->name('index');
 Route::get('/listdokter2', [App\Http\Controllers\backend\DashboardListDokterController::class, 'index'])->name('index');
+Route::get('/lokasi', [App\Http\Controllers\backend\LokasiController::class, 'index'])->name('index');
 
 Route::get('/artikel', [App\Http\Controllers\backend\ArtikelController::class, 'index'])->name('artikel');
 Route::get('/biodatadokter', [App\Http\Controllers\backend\BiodataDokterController::class, 'index'])->name('biodatadokter');
