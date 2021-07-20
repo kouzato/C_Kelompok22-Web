@@ -11,23 +11,21 @@ class Dashboard3ApiController extends Controller
 {
     public function index()
     {
-        # code...
-        $artikel = tabel_artikel::all();
-        return response()->json(['kode' => 201,'pesan' => 'success', 'data' => $artikel  ]);
+        $ListArtikel = ListArtikel::all();
+        return response()->json(['kode' => 201,'pesan' => 'success', 'data' => $ListArtikel  ]);
     }
 
     public function show($id)
     {
         # code...
-        $artikel = tabel_artikel::find($id)->first();
-        return response()->json($artikel, 201);
+        $ListArtikel =DB::table($id)->first();
+        return response()->json($ListArtikel, 201);
     }
-
-    public function search(){ 
-
-            $search_text = $_GET['query'];
-            $artikel = DB::table('tabel_artikel')->where('judul','LIKE','%'.$search.'%')->paginate(5);
-            return response()->json(['data'=>$artikel]);
+    public function search(Request $request)
+    {
+      $search = $request->get('search');
+      $ListArtikel= DB::table('tabel_artikel')->where('judul','LIKE','%'.$search.'%')->paginate(5);
+      return response()->json(['data'=>$ListArtikel]);
     }
 }
 

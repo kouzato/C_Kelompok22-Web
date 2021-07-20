@@ -2,13 +2,11 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Http\Controllers\Controller;
-use App\Models\User;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Hash;
+use Illuminate\Http\Request, 
+App\Http\Controllers\Controller;
 use DB;
 
-class PostArtikel3ApiController extends Controller
+class PostArtikel3Controller extends Controller
 {
     public function index(Request $request)
     {
