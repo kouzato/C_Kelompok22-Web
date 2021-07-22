@@ -58,8 +58,8 @@
                                     <td>{{$item->nama_dokter}}</td>
                                     <td>{{$item->alamat_dokter}}</td>
                                     <td>{{$item->username_dokter}}</td>
-                                    <td>{{$item->password_dokter}}</td>
-                                    <td>{{$item->confirm_password_dokter}}</td>
+                                    <td>{{$item->notelp}}</td>
+                                    <td>{{$item->spesialis}}</td>
                                     <td>{{$item->email_dokter}}</td>
                                   </tr>
                                   <td>
