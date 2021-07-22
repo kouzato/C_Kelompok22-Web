@@ -82,11 +82,11 @@
                         <div class="col-md-8 padding-0">
                             <div class="col-md-12 padding-0">
                                 <div class="col-md-6">
-                                    <div class="panel box-v1">
+                                    <div class="panel box-v4">
                                       <div class="panel-heading bg-white border-none">
                                         <div class="col-md-6 col-sm-6 col-xs-6 text-left padding-0">
                                           <h4 class="text-left"></h4>
-                                          <img src="asset/img/dashboard.jpg" class="img-responsive"/>
+                                          <!--<img src="asset/img/dashboard.jpg" class="img-responsive"/> -->
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 text-right">
                                            <h4>
@@ -103,11 +103,11 @@
                                 </div>
 
                                 <div class="col-md-6">
-                                    <div class="panel box-v1">
+                                    <div class="panel box-v4">
                                       <div class="panel-heading bg-white border-none">
                                         <div class="col-md-6 col-sm-6 col-xs-6 text-left padding-0">
                                           <h4 class="text-left"></h4>
-                                          <img src="asset/img/dashboard.jpg" class="img-responsive"/>
+                                          <!-- <img src="asset/img/dashboard.jpg" class="img-responsive"/> -->
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 text-right">
                                            <h4>
@@ -115,9 +115,10 @@
                                            </h4>
                                         </div>
                                       </div>
+                                      
                                       <div class="panel-body text-center">
                                         <h1></h1>
-                                        <p>Perawatan Hewan Anda Sangatlah Penting, jangan sampai peliharaan anda mengalami hal hal yang tidak diinginkan</p>
+                                        <p> Kami juga selalu siap memberikan informasi secara maksimal serta selalu menyediakan produk-produk yang terbaik di setiap kelasnya dengan aneka macam pilihan varian.</p>
                                         <hr/>
                                       </div>
                                     </div>
