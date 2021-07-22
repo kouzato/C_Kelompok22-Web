@@ -96,7 +96,7 @@
                                       </div>
                                       <div class="panel-body text-center">
                                         <h1></h1>
-                                        <p>Perawatan Hewan Anda Sangatlah Penting, jangan sampai peliharaan anda mengalami hal hal yang tidak diinginkan</p>
+                                        <p>Perawatan Hewan Anda Sangatlah Penting, jangan sampai peliharaan anda mengalami berbagai penyakit dan hal hal yang tidak diinginkan</p>
                                         <hr/>
                                       </div>
                                     </div>

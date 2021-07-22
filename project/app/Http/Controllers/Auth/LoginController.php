@@ -42,7 +42,7 @@ class LoginController extends Controller
     {
         $this->validate($request, [
             'username' => 'required|string',
-            'password' => 'required|string|min:8',
+            'password' => 'required|string|min:5',
         ]);
 
         /*lakukan pengecekan, jika inputan dari username formatnya adalah email, maka kita lakukan 

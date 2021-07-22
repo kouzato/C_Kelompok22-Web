@@ -29,8 +29,8 @@ class BiodataDokterController extends Controller
             'nama_dokter' => $request->nama_dokter,
             'alamat_dokter' => $request->alamat,
             'username_dokter' => $request->username_dokter,
-            'password_dokter' => $request->password_dokter,
-            'confirm_password_dokter' => $request->confirm_password_dokter,
+            'notelp' => $request->notelp,
+            'spesialis' => $request->spesialis,
             'email_dokter' => $request->email_dokter,
         ]);
 
@@ -50,8 +50,8 @@ class BiodataDokterController extends Controller
         'nama_dokter' => $request->nama_dokter,
         'alamat_dokter' => $request->alamat,
         'username_dokter' => $request->username_dokter,
-        'password_dokter' => $request->password_dokter,
-        'confirm_password_dokter' => $request->confirm_password_dokter,
+        'notelp' => $request->notelp,
+        'spesialis' => $request->spesialis,
         'email_dokter' => $request->email_dokter,
       ]);
       return redirect('listdokter')

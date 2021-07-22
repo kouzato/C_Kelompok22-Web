@@ -18,8 +18,8 @@ class CreateBiodataDokterTable extends Migration
             $table->string('nama_dokter');
             $table->string('alamat_dokter');
             $table->string('username_dokter');
-            $table->string('password_dokter');
-            $table->string('confirm_password_dokter');
+            $table->string('notelp');
+            $table->string('spesialis');
             $table->string('email_dokter');
             $table->timestamps();
         });
