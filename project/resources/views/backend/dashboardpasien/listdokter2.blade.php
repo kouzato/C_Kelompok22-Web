@@ -43,9 +43,9 @@
                                 <tr>
 
                                     <th>Nama</th>
-                                    <th>No Telp</th>
-                                    <th>Username Dokter</th>
                                     <th>Alamat</th>
+                                    <th>Username Dokter</th>
+                                    <th>No Telepon</th>
                                     <th>Spesialis</th>
                                     <th>Email Dokter</th>
                                 </tr>
