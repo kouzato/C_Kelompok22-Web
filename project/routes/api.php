@@ -25,6 +25,7 @@ Route::group(['namespace' => 'Api'] ,function(){
 Route::get('/dashboard3',[App\Http\Controllers\Api\Dashboard3ApiController::class, 'index']);
 Route::get('/listdokter2',[App\Http\Controllers\Api\ListDokterApiController::class, 'index']);
 Route::post('/profile3',[App\Http\Controllers\Api\Profile3ApiController::class, 'store']);
+Route::post('/profile2',[App\Http\Controllers\Api\Profile2ApiController::class, 'store']);
 Route::post('/register', [App\Http\Controllers\Api\RegisterApiController::class, 'store']);
 Route::post('/login', [App\Http\Controllers\Api\LoginApiController::class, 'store']);
 });

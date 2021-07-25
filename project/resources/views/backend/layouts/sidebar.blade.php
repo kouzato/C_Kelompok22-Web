@@ -23,6 +23,7 @@
                          class="fa-angle-right fa right-arrow text-right"></span> </a>
                  <ul class="nav nav-list tree">
                      <li><a href="{{ asset('profile')}}">List Keluhan</a></li>
+                     <li><a href="{{ asset('profile2')}}">List Keluhan 2</a></li>
                      <li><a href="{{ asset('listdokter')}}">List Dokter</a></li>
                      <li><a href="{{ asset('listartikel')}}">List Artikel</a></li>
                  </ul>
